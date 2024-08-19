@@ -1,26 +1,48 @@
 .container{
     background-color: #3D002F;
     width: 100vw;
-    height: 550vh;
+    height: 400vh;
     position: absolute;
     margin: -10px;
 }
 
 .image1 img{
     width: 100vw;
-    height: 40vh; 
+    height: auto; 
     position: absolute; 
-    top: 10vh; 
+    top: 0vh; 
     left: 0;
-    z-index: 1; 
+}
+.thematicname{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';
+    font-size: 31px;
+    left: 10vw;
+    top: 32vh;
 }
 
+.thematicdes{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';
+    font-size: 18px;
+    left: 37vw;
+    top: 37vh;
+}
+.button2{
+    position: absolute;
+    top: 52vh;
+    left: 58vw;
+}
 .title1{
     width: 100vw;
     height: 13vh;
     background-color: #250101d3;
     position: absolute; 
-    top: 50vh; 
+    top: 75vh; 
     left: 0; 
     z-index: 1; 
 }
@@ -32,15 +54,15 @@
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
     font-size: 30px;
     top: 2vh;
-    left: 35vw;
+    left: 8vw;
 }
 
 .container-text{
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     background-color: #fff;
     position: absolute; 
-    top: 63vh; 
+    top: 88vh; 
     left: 0; 
     z-index: 1;
 }
@@ -50,10 +72,9 @@
     text-align: left;
     color: #000000;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-style: italic; 
-    font-size: 25px;
-    top: 2vh;
-    left: 9vw; 
+    font-size: 20px;
+    top: 8vh;
+    left: 33vw; 
 }
 
 .text1 p{
@@ -61,9 +82,9 @@
     color: #000000;
     text-align: left;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 15px;  
-    left: 10vw;
-    top: 7vh; 
+    font-size: 14px;  
+    left: 33vw;
+    top: 17vh; 
 }
 
 .text2 h1{
@@ -71,10 +92,9 @@
     text-align: left;
     color: #000000;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-style: italic; 
-    font-size: 23px;
-    top: 21vh;
-    left: 10vw; 
+    font-size: 20px;
+    top: 10vh;
+    left: 68vw; 
 }
 
 .text2 p{
@@ -82,20 +102,19 @@
     color: #000000;
     text-align: left;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 15px;  
-    left: 13vw;
-    top: 29vh; 
+    font-size: 14px;  
+    left: 68vw;
+    top: 17vh; 
 }
 
 .text3 h1{
     position: absolute;
     text-align: left;
     color: #000000;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-style: italic; 
-    font-size: 23px;
-    top: 40vh;
-    left: 10vw; 
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';
+    font-size: 20px;
+    top: 8vh;
+    left: 8vw; 
 }
 
 .text3 p{
@@ -103,26 +122,26 @@
     color: #000000;
     text-align: left;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 15px;  
-    left: 13vw;
-    top: 50vh; 
+    font-size: 14px;  
+    left: 8vw;
+    top: 18vh; 
 }
 
-.image2 img{
-    width: 100vw;
-    height: 40vh; 
+.imageEducation img{
+    width: 50vh;
+    height: 50vh; 
     position: absolute; 
-    top: 135vh; 
+    top: 0vh; 
     left: 0;
     z-index: 1; 
 }
 
 .container-text2{
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     background-color: #fff;
     position: absolute; 
-    top: 188vh; 
+    top: 158vh; 
     left: 0; 
     z-index: 1;
 }
@@ -132,7 +151,7 @@
     height: 13vh;
     background-color: #250101d3;
     position: absolute; 
-    top: 175vh; 
+    top: 145vh; 
     left: 0; 
     z-index: 1; 
 }
@@ -144,18 +163,17 @@
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
     font-size: 30px;
     top: 2vh;
-    left: 30vw;
+    left: 8vw;
 }
 
 .text4 h1{
     position: absolute;
     text-align: left;
     color: #000000;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-style: italic; 
-    font-size: 23px;
-    top: 2vh;
-    left: 10vw; 
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 20px;
+    top: 8vh;
+    left: 38vw; 
 }
 
 .text4 p{
@@ -163,9 +181,9 @@
     color: #000000;
     text-align: left;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 15px;  
-    left: 13vw;
-    top: 10vh; 
+    font-size: 14px;  
+    left: 38vw;
+    top: 18vh; 
 }
 
 .text5 h1{
@@ -173,10 +191,9 @@
     text-align: left;
     color: #000000;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-style: italic; 
-    font-size: 25px;
-    top: 18vh;
-    left: 10vw; 
+    font-size: 20px;
+    top: 8vh;
+    left: 33vw; 
 }
 
 .text5 p{
@@ -184,9 +201,9 @@
     color: #000000;
     text-align: left;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 15px;  
-    left: 13vw;
-    top: 27vh; 
+    font-size: 14px;  
+    left: 33vw;
+    top: 17vh; 
 }
 
 .text6 h1{
@@ -194,10 +211,9 @@
     text-align: left;
     color: #000000;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-style: italic; 
-    font-size: 23px;
-    top: 37vh;
-    left: 10vw; 
+    font-size: 20px;
+    top: 8vh;
+    left: 68vw; 
 }
 
 .text6 p{
@@ -205,26 +221,35 @@
     color: #000000;
     text-align: left;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 15px;  
-    left: 13vw;
-    top: 47vh; 
+    font-size: 14px;  
+    left: 68vw;
+    top: 17vh; 
 }
 
-.image3 img{
-    width: 100vw;
-    height: 40vh; 
+.imageScience img{
+    width: 50vh;
+    height: 50vh; 
     position: absolute; 
-    top: 265vh; 
+    top: 0vh; 
+    left: 72vw;
+    z-index: 1; 
+}
+
+.imageDivulgation img{
+    width: 50vh;
+    height: 50vh; 
+    position: absolute; 
+    top: 0vh; 
     left: 0;
     z-index: 1; 
 }
 
 .container-text3{
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     background-color: #fff;
     position: absolute; 
-    top: 318vh; 
+    top: 228vh; 
     left: 0; 
     z-index: 1;
 }
@@ -234,7 +259,7 @@
     height: 13vh;
     background-color: #250101d3;
     position: absolute; 
-    top: 305vh; 
+    top: 215vh; 
     left: 0; 
     z-index: 1; 
 }
@@ -246,79 +271,16 @@
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
     font-size: 30px;
     top: 2vh;
-    left: 30vw;
-}
-
-.text7 h1{
-    position: absolute;
-    text-align: left;
-    color: #000000;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-style: italic; 
-    font-size: 25px;
-    top: 3vh;
-    left: 10vw; 
-}
-
-.text7 p{
-    position: absolute;
-    color: #000000;
-    text-align: left;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 15px;  
-    left: 13vw;
-    top: 10vh; 
-}
-
-.text8 h1{
-    position: absolute;
-    text-align: left;
-    color: #000000;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-style: italic; 
-    font-size: 23px;
-    top: 20vh;
-    left: 10vw; 
-}
-
-.text8 p{
-    position: absolute;
-    color: #000000;
-    text-align: left;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 15px;  
-    left: 13vw;
-    top: 30vh; 
-}
-
-.text9 h1{
-    position: absolute;
-    text-align: left;
-    color: #000000;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-style: italic; 
-    font-size: 23px;
-    top: 40vh;
-    left: 10vw; 
-}
-
-.text9 p{
-    position: absolute;
-    color: #000000;
-    text-align: left;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 15px;  
-    left: 13vw;
-    top: 45vh; 
+    left: 8vw;
 }
 
 .footer{
     position: absolute;
-    top: 370vh;
+    top: 220vh;
 }
 
 .button{
     position: absolute;
-    top: 440vh;
-    left: 30vw;
+    top: 285vh;
+    left: 43vw;
 }
