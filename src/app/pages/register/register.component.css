@@ -1,0 +1,123 @@
+/* Estilos generales */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow: hidden; /* Evitar scroll en el body */
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    width: 100vw; /* Asegura que el contenedor ocupe todo el ancho */
+    margin: 0;
+    overflow: hidden; /* Evita scroll en el contenedor */
+  }
+  
+  /* Sección izquierda (Registro) */
+  .left-section {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box; /* Incluye padding y borde en el tamaño del contenedor */
+    overflow: hidden; /* Evita scroll en la sección */
+  }
+  
+  .registration-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #f2f2f2; /* Fondo gris claro */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye padding y borde en el tamaño del contenedor */
+  }
+  
+  .title {
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    font-style: italic;
+    color: #2f2020;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Incluye padding y borde en el tamaño del input */
+  }
+  
+  .submit-button {
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    padding: 10px 20px; /* Ajusta el tamaño al texto */
+    background-color: #2f2020;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, padding 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #1f1f1f; /* Cambia ligeramente el color al pasar el cursor */
+    padding: 12px 24px; /* Tamaño aumentado al hacer hover */
+  }
+  
+  .error-message {
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    color: #940a0a;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  .success-message {
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    color: green;
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Sección derecha (Información) */
+  .right-section {
+    background-color: #2f2020;
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box; /* Incluye padding y borde en el tamaño del contenedor */
+    height: 100vh; /* Asegura que cubra toda la altura de la ventana */
+    overflow: hidden; /* Evita scroll en la sección */
+  }
+  
+  /* Contenedor de texto en la sección derecha */
+  .text-container {
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    font-style: italic;
+    text-align: center;
+    max-width: 100%; /* Asegura que el texto no desborde */
+  }
+  
+  .big-text {
+    font-size: 3em;
+    margin: 20px 0;
+  }
+  
+  .small-text {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
