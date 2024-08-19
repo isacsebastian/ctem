@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+}
+
+.register-btn {
+    background-color: #ffffff;
+    color: #bf1650;
+    border: none;
+    border-radius: 25px;
+    padding: 30px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: not-allowed; 
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';
+}
+
+.register-btn:hover {
+    background-color: #f3f3f3;
+}
+
+.button-container {
+    position: absolute;
+    right: 45.5vw; 
+    bottom: 32vh;
+    text-align: center;
+    z-index: 2; 
+}

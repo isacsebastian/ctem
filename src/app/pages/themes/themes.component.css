@@ -1,0 +1,324 @@
+.container{
+    background-color: #3D002F;
+    width: 100vw;
+    height: 550vh;
+    position: absolute;
+    margin: -10px;
+}
+
+.image1 img{
+    width: 100vw;
+    height: 40vh; 
+    position: absolute; 
+    top: 10vh; 
+    left: 0;
+    z-index: 1; 
+}
+
+.title1{
+    width: 100vw;
+    height: 13vh;
+    background-color: #250101d3;
+    position: absolute; 
+    top: 50vh; 
+    left: 0; 
+    z-index: 1; 
+}
+
+.title1 h1{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 30px;
+    top: 2vh;
+    left: 35vw;
+}
+
+.container-text{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute; 
+    top: 63vh; 
+    left: 0; 
+    z-index: 1;
+}
+
+.text1 h1{
+    position: absolute;
+    text-align: left;
+    color: #000000;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-style: italic; 
+    font-size: 25px;
+    top: 2vh;
+    left: 9vw; 
+}
+
+.text1 p{
+    position: absolute;
+    color: #000000;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 10vw;
+    top: 7vh; 
+}
+
+.text2 h1{
+    position: absolute;
+    text-align: left;
+    color: #000000;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-style: italic; 
+    font-size: 23px;
+    top: 21vh;
+    left: 10vw; 
+}
+
+.text2 p{
+    position: absolute;
+    color: #000000;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 29vh; 
+}
+
+.text3 h1{
+    position: absolute;
+    text-align: left;
+    color: #000000;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-style: italic; 
+    font-size: 23px;
+    top: 40vh;
+    left: 10vw; 
+}
+
+.text3 p{
+    position: absolute;
+    color: #000000;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 50vh; 
+}
+
+.image2 img{
+    width: 100vw;
+    height: 40vh; 
+    position: absolute; 
+    top: 135vh; 
+    left: 0;
+    z-index: 1; 
+}
+
+.container-text2{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute; 
+    top: 188vh; 
+    left: 0; 
+    z-index: 1;
+}
+
+.title2{
+    width: 100vw;
+    height: 13vh;
+    background-color: #250101d3;
+    position: absolute; 
+    top: 175vh; 
+    left: 0; 
+    z-index: 1; 
+}
+
+.title2 h1{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 30px;
+    top: 2vh;
+    left: 30vw;
+}
+
+.text4 h1{
+    position: absolute;
+    text-align: left;
+    color: #000000;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-style: italic; 
+    font-size: 23px;
+    top: 2vh;
+    left: 10vw; 
+}
+
+.text4 p{
+    position: absolute;
+    color: #000000;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 10vh; 
+}
+
+.text5 h1{
+    position: absolute;
+    text-align: left;
+    color: #000000;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-style: italic; 
+    font-size: 25px;
+    top: 18vh;
+    left: 10vw; 
+}
+
+.text5 p{
+    position: absolute;
+    color: #000000;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 27vh; 
+}
+
+.text6 h1{
+    position: absolute;
+    text-align: left;
+    color: #000000;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-style: italic; 
+    font-size: 23px;
+    top: 37vh;
+    left: 10vw; 
+}
+
+.text6 p{
+    position: absolute;
+    color: #000000;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 47vh; 
+}
+
+.image3 img{
+    width: 100vw;
+    height: 40vh; 
+    position: absolute; 
+    top: 265vh; 
+    left: 0;
+    z-index: 1; 
+}
+
+.container-text3{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute; 
+    top: 318vh; 
+    left: 0; 
+    z-index: 1;
+}
+
+.title3{
+    width: 100vw;
+    height: 13vh;
+    background-color: #250101d3;
+    position: absolute; 
+    top: 305vh; 
+    left: 0; 
+    z-index: 1; 
+}
+
+.title3 h1{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 30px;
+    top: 2vh;
+    left: 30vw;
+}
+
+.text7 h1{
+    position: absolute;
+    text-align: left;
+    color: #000000;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-style: italic; 
+    font-size: 25px;
+    top: 3vh;
+    left: 10vw; 
+}
+
+.text7 p{
+    position: absolute;
+    color: #000000;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 10vh; 
+}
+
+.text8 h1{
+    position: absolute;
+    text-align: left;
+    color: #000000;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-style: italic; 
+    font-size: 23px;
+    top: 20vh;
+    left: 10vw; 
+}
+
+.text8 p{
+    position: absolute;
+    color: #000000;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 30vh; 
+}
+
+.text9 h1{
+    position: absolute;
+    text-align: left;
+    color: #000000;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-style: italic; 
+    font-size: 23px;
+    top: 40vh;
+    left: 10vw; 
+}
+
+.text9 p{
+    position: absolute;
+    color: #000000;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 45vh; 
+}
+
+.footer{
+    position: absolute;
+    top: 370vh;
+}
+
+.button{
+    position: absolute;
+    top: 440vh;
+    left: 30vw;
+}

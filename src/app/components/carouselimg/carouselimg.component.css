@@ -1,0 +1,199 @@
+.carousel {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.card {
+    width: 75vw;
+    height: 50vh;
+    border-radius: 20px;
+    background-color: #40153661;
+    position: absolute;
+    top: 10vh;
+    left: 12vw;
+    opacity: 0;
+    animation: slideAnimation 25s infinite;
+    box-shadow: 0 8px 15px #0000004d; 
+
+}
+
+.image1 img{
+    width: 65vw;
+    height: 22vh;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
+}
+
+.image2 img{
+    width: 65vw;
+    height: 22vh;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
+}
+
+.image3 img{
+    width: 65vw;
+    height: 22vh;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
+}
+
+.image4 img{
+    width: 65vw;
+    height: 22vh;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
+}
+
+.image5 img{
+    width: 65vw;
+    height: 22vh;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
+}
+
+.imgText1{
+    position: relative;
+    top: 5vh;
+}
+
+.imgText1 h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-style: italic; 
+    font-size: 22px;
+}
+
+.imgText1 p{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 14px;
+}
+
+.imgText2{
+    position: relative;
+    top: 5vh;
+}
+
+.imgText2 h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-style: italic; 
+    font-size: 22px;
+}
+
+.imgText2 p{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 14px;
+}
+
+.image3 img{
+    position: relative;
+    top: 5vh;   
+}
+
+.imgText3{
+    position: relative;
+    top: 5vh;  
+}
+
+.imgText3 h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-style: italic; 
+    font-size: 22px;
+}
+
+.imgText3 p{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 14px;
+}
+
+.imgText4{
+    position: relative;
+    top: 5vh;  
+}
+
+.image4 img{
+    position: relative;
+    top: 5vh;    
+}
+
+.imgText4 h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-style: italic; 
+    font-size: 22px;
+}
+
+.imgText4 p{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 14px;
+}
+
+.imgText5{
+    position: relative;
+    top: 5vh;  
+}
+
+.image5 img{
+    position: relative;
+    top: 5vh;   
+}
+
+.imgText5 h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-style: italic; 
+    font-size: 22px;
+}
+
+.imgText5 p{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 14px;
+}
+
+
+
+@keyframes slideAnimation {
+    0% { opacity: 0; }
+    4% { opacity: 1; }
+    20% { opacity: 1; }
+    24% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+.card1 {
+    animation-delay: 0s;
+}
+.card2 {
+    animation-delay: 5s;
+}
+.card3 {
+    animation-delay: 10s;
+}
+.card4 {
+    animation-delay: 15s;
+}

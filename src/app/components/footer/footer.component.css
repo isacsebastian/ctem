@@ -1,0 +1,164 @@
+.container{
+    background-color: #000000;
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    margin: -1px;
+    margin-top: 90vh;
+}
+
+.title h1{
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 20px;
+    top: 5vh;
+    left: 13vw; 
+}
+
+.text1 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 10vh; 
+}
+
+.text2 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 14vh; 
+}
+
+.text3 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 18vh; 
+}
+
+.text4 P{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 16vw;
+    top: 22vh; 
+}
+
+.text5 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 13px;  
+    left: 16vw;
+    top: 25vh; 
+}
+
+.title2 h1{
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 20px;
+    top: 5vh;
+    left: 60vw; 
+}
+
+.text6 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 60vw;
+    top: 10vh; 
+}
+
+.text7 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 60vw;
+    top: 14vh; 
+}
+
+.text8 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 60vw;
+    top: 18vh; 
+}
+
+.line{
+    width: 85vw;
+    height: 0.2vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 37vh;
+    left: 8vw;   
+}
+
+.logo-suda img{
+    position: absolute;
+    left: 10vw;
+    top: 40vh;
+}
+
+.line2{
+    width: 85vw;
+    height: 0.2vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 80vh;
+    left: 8vw;   
+}
+
+.icon-what{
+    position: absolute;
+    left: 25vw;
+    top: 83vh;
+}
+
+.icon-face{
+    position: absolute;
+    left: 35vw;
+    top: 83vh;
+}
+
+.icon-insta{
+    position: absolute;
+    left: 45vw;
+    top: 83vh;
+}
+
+.icon-tiktok{
+    position: absolute;
+    left: 55vw;
+    top: 83vh;
+}
+
+.icon-link{
+    position: absolute;
+    left: 65vw;
+    top: 83vh;
+}
