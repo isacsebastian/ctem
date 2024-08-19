@@ -10,7 +10,7 @@ header {
   justify-content: center;
 }
 
-.imagenCtem{
+.imagenCtem {
   width: 100px;
   height: 100px;
   margin-left: 10px;
@@ -19,6 +19,7 @@ header {
 .logo {
   width: 400px;
 }
+
 .logo:hover {
   cursor: pointer;
 }
@@ -26,6 +27,7 @@ header {
 .desktop_menu {
   margin-top: 24px;
 }
+
 .desktop_menu ul {
   padding: 0;
   margin: 0;
@@ -33,6 +35,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .desktop_menu ul li {
   list-style-type: none;
   color: white;
@@ -40,6 +43,7 @@ header {
   font-size: 18px;
   margin-left: 26px;
 }
+
 .desktop_menu ul li:hover {
   font-size: 19px;
   font-weight: bold;
@@ -63,9 +67,11 @@ header {
     height: 100%;
     opacity: 0.9;
   }
+
   .desktop_menu ul {
     display: block;
   }
+
   .desktop_menu ul li {
     display: block;
     text-align: left;
@@ -73,15 +79,17 @@ header {
     padding: 10px 0 10px 26px;
     border-bottom: 1px solid grey;
   }
+
   .menu-icon {
     display: block;
     color: white;
     font-size: 40px;
     padding-top: 10px;
   }
+
   .mobile_menu {
     right: 0;
-    /*transition: 0.4s;*/
+    /* transition: 0.4s; */
     position: absolute;
     top: 0;
     left: 0;

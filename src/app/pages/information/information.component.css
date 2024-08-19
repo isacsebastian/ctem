@@ -1,5 +1,5 @@
 .container{
-    background-color: #3D002F;
+    background-color: #000000;
     width: 100vw;
     height: 350vh;
     position: relative;
@@ -615,4 +615,4 @@
         left: -50vw;
         top: 69vh;
     }
-}
+} 
