@@ -1,16 +1,14 @@
-/* General header styling */
 header {
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.9); /* Ensures opacity */
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 999;
+  background: rgba(0, 0, 0, 0.9);
   display: flex;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 10px;
 }
 
-/* Logo styling */
 .logo {
   width: 400px;
 }
@@ -19,87 +17,84 @@ header {
   cursor: pointer;
 }
 
-/* Desktop menu styling */
+.logo img {
+  max-width: 35%;
+  height: auto;
+  padding: 20px;
+}
+
 .desktop_menu {
   margin-top: 24px;
 }
 
-/* Desktop menu items */
 .desktop_menu ul {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center; /* Center the menu items */
   align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .desktop_menu ul li {
-  list-style-type: none;
-  color: white; /* Default text color */
+  color: white;
   display: inline-block;
   font-size: 18px;
+  list-style-type: none;
   margin-left: 26px;
 }
 
-/* Hover effect for desktop menu items */
 .desktop_menu ul li:hover {
+  color: rgb(255, 150, 255);
+  cursor: pointer;
   font-size: 19px;
   font-weight: bold;
-  cursor: pointer;
-  color: rgb(255, 150, 255); /* Light purple on hover */
   transition: 0.3s ease-in-out;
 }
 
-/* Hamburger menu icon */
 .menu-icon {
   display: none;
 }
 
-/* Mobile view styling */
 @media screen and (min-width: 128px) and (max-width: 900px) {
-  /* Mobile menu container */
   .desktop_menu {
-    position: fixed !important;
-    right: -280px;
-    transition: 0.4s ease-in-out; /* Smooth transition for menu sliding */
-    top: 64px;
-    background: rgba(0, 0, 0, 0.85); /* Slightly more transparent for mobile */
-    width: 280px;
+    background: rgba(0, 0, 0, 0.85);
     height: 100%;
     opacity: 0.9;
+    position: fixed !important;
+    right: -280px;
+    top: 64px;
+    transition: 0.4s ease-in-out;
+    width: 280px;
   }
 
-  /* Mobile menu items */
   .desktop_menu ul {
     display: block;
   }
 
   .desktop_menu ul li {
+    border-bottom: 1px solid grey;
     display: block;
-    text-align: left;
     margin: 0;
     padding: 10px 0 10px 26px;
-    border-bottom: 1px solid grey;
+    text-align: left;
   }
 
-  /* Hamburger menu icon display for mobile */
   .menu-icon {
-    display: block;
     color: white !important;
+    cursor: pointer;
+    display: block;
     font-size: 40px;
     padding-top: 10px;
-    cursor: pointer; /* Ensures it’s clickable */
   }
 
-  /* Mobile menu overlay */
   .mobile_menu {
-    right: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
+    background: rgba(0, 0, 0, 0.9);
     bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.4s ease-in-out;
     z-index: 999;
-    background: rgba(0, 0, 0, 0.9); /* Matches desktop opacity */
-    transition: 0.4s ease-in-out; /* Smooth transition for the mobile menu */
   }
 }
