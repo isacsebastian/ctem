@@ -119,7 +119,7 @@
         animation: none;
     }
 
-    .image2 img {
+    .image1 img {
         width: 45vw;
         height: 61vh;
         position: absolute;
@@ -128,9 +128,9 @@
     }
 
     .imgText1 h1 {
-        font-size: 25px;
+        font-size: 35px;
         position: relative;
-        top: 1vh;
+        top: -6vh;
         left: 8vw;
     }
 
@@ -144,7 +144,7 @@
     .sub-image1 p {
         position: relative;
         left: 16vw;
-        top: 7vh;
+        top: -2vh;
     }
 
     .sub-image2 img {
@@ -156,8 +156,8 @@
 
     .sub-image2 p {
         position: relative;
-        left: 12vw;
-        top: 9vh;
+        left: 8vw;
+        top: 1vh;
     }
 
     .sub-image3 img {
@@ -169,8 +169,8 @@
 
     .sub-image3 p {
         position: relative;
-        left: 13vw;
-        top: 13vh;
+        left: 9vw;
+        top: 5.5vh;
     }
 
     .sub-image4 img {
@@ -182,8 +182,8 @@
 
     .sub-image4 p {
         position: relative;
-        left: 10vw;
-        top: 15vh;
+        left: 6vw;
+        top: 8vh;
     }
 }
 
