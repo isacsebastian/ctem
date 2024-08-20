@@ -7,193 +7,184 @@
 
 .card {
     width: 75vw;
-    height: 50vh;
+    height: 70vh;
     border-radius: 20px;
     background-color: #40153661;
     position: absolute;
-    top: 10vh;
+    top: 12vh;
     left: 12vw;
-    opacity: 0;
-    animation: slideAnimation 25s infinite;
+    opacity: 1;
     box-shadow: 0 8px 15px #0000004d; 
-
 }
 
-.image1 img{
-    width: 65vw;
-    height: 22vh;
-    position: relative;
-    left: 5vw;
+.image1 img {
+    width: 50vw;
+    height: 20vh;
+    position: absolute;
+    left: 15vw;
     top: 5vh;
 }
 
-.image2 img{
-    width: 65vw;
-    height: 22vh;
-    position: relative;
-    left: 5vw;
-    top: 5vh;
+.imgText1 {
+    position: absolute;
+    top: 10vh;
 }
 
-.image3 img{
-    width: 65vw;
-    height: 22vh;
-    position: relative;
-    left: 5vw;
-    top: 5vh;
-}
-
-.image4 img{
-    width: 65vw;
-    height: 22vh;
-    position: relative;
-    left: 5vw;
-    top: 5vh;
-}
-
-.image5 img{
-    width: 65vw;
-    height: 22vh;
-    position: relative;
-    left: 5vw;
-    top: 5vh;
-}
-
-.imgText1{
-    position: relative;
-    top: 5vh;
-}
-
-.imgText1 h1{
+.imgText1 h1 {
     color: #fff;
     text-align: center;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
     font-style: italic; 
     font-size: 22px;
+    position: relative;
+    top: 20vh;
+    left: 7vw;
 }
 
-.imgText1 p{
+.imgText1 p {
     color: #fff;
     text-align: center;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
     font-size: 14px;
 }
 
-.imgText2{
-    position: relative;
-    top: 5vh;
+.sub-image1 img {
+    position: absolute;
+    width: 5vw;
+    height: 3vh;
+    left: 12vw;
+    top: 29vh;
 }
 
-.imgText2 h1{
+.sub-image1 p {
+    position: absolute;
     color: #fff;
-    text-align: center;
+    text-align: left;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
-    font-style: italic; 
-    font-size: 22px;
+    font-size: 13px;
+    left: 24vw;
+    top: 28vh;
 }
 
-.imgText2 p{
-    color: #fff;
-    text-align: center;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 14px;
+.sub-image2 img {
+    width: 5vw;
+    height: 3vh;
+    left: 12vw;
+    top: 34vh;
 }
 
-.image3 img{
+.sub-image2 p {
     position: relative;
-    top: 5vh;   
+    left: 12vw;
+    top: 27.5vh;
 }
 
-.imgText3{
+.sub-image3 img {
+    width: 6vw;
+    height: 3vh;
+    left: 12vw;
+    top: 39vh;
+}
+
+.sub-image3 p {
     position: relative;
-    top: 5vh;  
+    left: 17vw;
+    top: 28.5vh;
 }
 
-.imgText3 h1{
-    color: #fff;
-    text-align: center;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
-    font-style: italic; 
-    font-size: 22px;
+.sub-image4 img {
+    width: 5vw;
+    height: 3vh;
+    left: 12vw;
+    top: 44vh;
 }
 
-.imgText3 p{
-    color: #fff;
-    text-align: center;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 14px;
-}
-
-.imgText4{
+.sub-image4 p {
     position: relative;
-    top: 5vh;  
-}
-
-.image4 img{
-    position: relative;
-    top: 5vh;    
-}
-
-.imgText4 h1{
-    color: #fff;
-    text-align: center;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
-    font-style: italic; 
-    font-size: 22px;
-}
-
-.imgText4 p{
-    color: #fff;
-    text-align: center;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 14px;
-}
-
-.imgText5{
-    position: relative;
-    top: 5vh;  
-}
-
-.image5 img{
-    position: relative;
-    top: 5vh;   
-}
-
-.imgText5 h1{
-    color: #fff;
-    text-align: center;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
-    font-style: italic; 
-    font-size: 22px;
-}
-
-.imgText5 p{
-    color: #fff;
-    text-align: center;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 14px;
+    left: 10vw;
+    top: 15vh;
 }
 
 
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 85vw;
+        height: 60vh;
+        border-radius: 20px;
+        background-color: #8e878c61;
+        position: absolute;
+        top: 12vh;
+        left: 5vw;
+        opacity: 1;
+        animation: none;
+    }
 
-@keyframes slideAnimation {
-    0% { opacity: 0; }
-    4% { opacity: 1; }
-    20% { opacity: 1; }
-    24% { opacity: 0; }
-    100% { opacity: 0; }
+    .image2 img {
+        width: 45vw;
+        height: 61vh;
+        position: absolute;
+        left: 40vw;
+        top: 0.5vh;
+    }
+
+    .imgText1 h1 {
+        font-size: 25px;
+        position: relative;
+        top: 1vh;
+        left: 8vw;
+    }
+
+    .sub-image1 img {
+        width: 2vw;
+        height: 4vh;
+        left: 12vw;
+        top: 15vh;
+    }
+
+    .sub-image1 p {
+        position: relative;
+        left: 16vw;
+        top: 7vh;
+    }
+
+    .sub-image2 img {
+        width: 2vw;
+        height: 4vh;
+        left: 12vw;
+        top: 22vh;
+    }
+
+    .sub-image2 p {
+        position: relative;
+        left: 12vw;
+        top: 9vh;
+    }
+
+    .sub-image3 img {
+        width: 2vw;
+        height: 3vh;
+        left: 12vw;
+        top: 31vh;
+    }
+
+    .sub-image3 p {
+        position: relative;
+        left: 13vw;
+        top: 13vh;
+    }
+
+    .sub-image4 img {
+        width: 2vw;
+        height: 3vh;
+        left: 12vw;
+        top: 38vh;
+    }
+
+    .sub-image4 p {
+        position: relative;
+        left: 10vw;
+        top: 15vh;
+    }
 }
 
 
-.card1 {
-    animation-delay: 0s;
-}
-.card2 {
-    animation-delay: 5s;
-}
-.card3 {
-    animation-delay: 10s;
-}
-.card4 {
-    animation-delay: 15s;
-}
