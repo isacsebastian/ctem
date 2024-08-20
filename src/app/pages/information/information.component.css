@@ -249,7 +249,7 @@
 }
 
 .objective{
-    width: 100vw;
+    width: auto;
     height: 25vh;
     background-color: #080808a0;
     position: absolute; 
@@ -314,7 +314,7 @@
         width: 100vw;
         height: 350vh;
         position: relative;
-        margin: -10px;
+        margin: 0px;
     }
     
     .head{
@@ -323,8 +323,8 @@
 
     .Background2 {
         position: absolute;
-        width: 60vw;
-        height: 101.5vh;
+        width: 50vw;
+        height: 50vh;
         display: flex;
     }
     
@@ -455,7 +455,7 @@
     }
     
     .container-mission{
-        width: 50vw;
+        width: 45vw;
         height: 50vh;
         background-color: #000000;
         position: absolute; 
@@ -485,12 +485,12 @@
     }
     
     .container-vision{
-        width: 50vw;
+        width: 35vw;
         height: 50vh;
         background-color: #fff;
         position: absolute; 
         top: -0.002vh; 
-        left: 50vw; 
+        left: 45vw; 
         z-index: 1; 
     }
     
@@ -513,7 +513,7 @@
     }
 
     .container-principle{
-        width: 35vw;
+        width: 25vw;
         height: 70vh;
         background-color: #000000;
         position: absolute; 
@@ -586,7 +586,7 @@
         background-color: #000000;
         position: absolute; 
         top: 50vh; 
-        left: 25vw; 
+        left: 15vw; 
         z-index: 1; 
     }
     
