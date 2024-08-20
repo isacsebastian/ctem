@@ -1,9 +1,9 @@
-<header>
+<header style="color: rgb(255, 255, 255);">
   <div class="container">
     <div class="row">
       <div class="col-md-3 col-sm-3 col-3">
         <div class="logo">
-          <img src="assets/logoCtem.png" alt="Logo"> <!-- Ruta relativa -->
+          <img src="assets/logoCtem.png" alt="Logo"> 
         </div>
       </div>
       <div class="col-md-9 col-sm-9 col-9 text-end">
@@ -12,11 +12,21 @@
         </div>
         <div class="desktop_menu" [class.mobile_menu]="menuValue">
           <ul>
-            <li (click)="closeMenu()"><a routerLink="/home">Home</a></li>
-            <li (click)="closeMenu()"><a routerLink="/information">Congreso</a></li>
-            <li (click)="closeMenu()"><a routerLink="/themes">Tematicas</a></li>
-            <li (click)="closeMenu()"><a routerLink="/speakers">Ponentes</a></li>
-            <li (click)="closeMenu()"><a routerLink="/register">¡Únete a Nosotros! 😘</a></li>
+            <li (click)="closeMenu()">
+              <div routerLink="home">Home</div>
+            </li>
+            <li (click)="closeMenu()">
+              <div routerLink="information">Congreso</div>
+            </li>
+            <li (click)="closeMenu()">
+              <div routerLink="themes" >Tematicas</div>
+            </li>
+            <!-- <li (click)="closeMenu()">
+              <div>Ponentes</div>
+            </li> -->
+            <li (click)="closeMenu()">
+              <div routerLink="register">¡Únete a Nosotros!</div>
+            </li>
           </ul>
         </div>
       </div>
