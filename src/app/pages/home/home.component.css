@@ -1,7 +1,7 @@
 .mainContainer {
     background-color: #3D002F;
     width: 100vw;
-    height: 280vh;
+    height: 650vh;
     position: relative;
     margin: -10px;
 }
@@ -18,10 +18,10 @@
 
 .proposity {
     width: 100vw;
-    height: 10vh;
-    background-color: #2501018e;
+    height: 8vh;
+    background-color: #000000;
     position: absolute; 
-    top: 105vh; 
+    top: 100vh; 
     left: 0; 
     z-index: 1; 
 }
@@ -31,7 +31,7 @@
     color: #fff;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
     font-style: italic; 
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .proposity1 {
@@ -46,20 +46,25 @@
 .proposity1 img {
     width: 100vw; 
     height: 40vh; 
+    position: absolute;
+    top: -12vh;
 }
 
 .Background img {
+   display: none;   
+}
+
+.Background2 img{
     width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;     
+    z-index: 1;   
 }
 
-
 .button {
-    top: 78vh;
+    top: 80vh;
     left: -2vw; 
     position: relative; 
     z-index: 3; 
@@ -68,9 +73,9 @@
 .proposityText{
     width: 100vw;
     height: 20vh;
-    background-color: #2501018e;
+    background-color: #000000;
     position: absolute; 
-    top: 160vh; 
+    top: 148vh; 
     left: 0; 
     z-index: 1; 
 }
@@ -102,14 +107,16 @@
 .proposity2 img {
     width: 100vw; 
     height: 40vh; 
+    position: absolute;
+    top: -17vh;
 }
 
 .proposityText2{
     width: 100vw;
     height: 20vh;
-    background-color: #2501018e;
+    background-color: #000000;
     position: absolute; 
-    top: 225vh; 
+    top: 205vh; 
     left: 0; 
     z-index: 1; 
 }
@@ -136,3 +143,506 @@
     z-index: 3; 
 }
 
+.footer{
+    position: absolute;
+    top: 520vh;
+}
+
+.container-speakers{
+    width: 100vw;
+    height: 8vh;
+    background-color: #000000;
+    position: absolute; 
+    top: 230vh; 
+    left: 0; 
+    z-index: 1; 
+}
+.container-speakers h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-style: italic; 
+    font-size: 25px;
+}
+
+.container-list{
+    width: 100vw;
+    height: 4vh;
+    background-color: #00000094;
+    position: absolute; 
+    top: 241vh; 
+    left: 0; 
+    z-index: 1; 
+}
+.container-list h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 15px;
+}
+
+.speakers1{
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    top: 241vh;
+}
+.theme{
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 15px;   
+    position: absolute;
+    left: 10vw;
+}
+.more{
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 15px;  
+    position: absolute;
+    left: 75vw;
+    top: 35vh;
+}
+
+.speakers2{
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    top: 282vh;
+}
+.theme2{
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 15px;   
+    position: absolute;
+    left: 10vw;
+}
+.more2{
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 15px;  
+    position: absolute;
+    left: 75vw;
+    top: 35vh;
+}
+
+.education{
+    width: 100vw;
+    height: 4vh;
+    background-color: #00000094;
+    position: absolute; 
+    top: 325vh; 
+    left: 0; 
+    z-index: 1; 
+}
+
+.education h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 15px;
+}
+
+.image-eduaction{
+    width: 85vw;
+    height: 70vh;
+    border-radius: 20px;
+    background-color: #bbbbbbb1;
+    position: absolute;
+    top: 332vh;
+    left: 7.5vw;
+}
+.image-eduaction img{
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+}
+
+.science{
+    width: 100vw;
+    height: 4vh;
+    background-color: #00000094;
+    position: absolute; 
+    top: 405vh; 
+    left: 0; 
+    z-index: 1; 
+}
+
+.science h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 15px;
+}
+
+.image-science{
+    width: 85vw;
+    height: 70vh;
+    border-radius: 20px;
+    background-color: #bbbbbbb1;
+    position: absolute;
+    top: 413vh;
+    left: 7.5vw;
+}
+.image-science img{
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+}
+
+.Divulgacion{
+    width: 100vw;
+    height: 4vh;
+    background-color: #00000094;
+    position: absolute; 
+    top: 487vh; 
+    left: 0; 
+    z-index: 1; 
+}
+
+.Divulgacion h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 15px;
+}
+
+.image-divulgacion{
+    width: 85vw;
+    height: 70vh;
+    border-radius: 20px;
+    background-color: #bbbbbbb1;
+    position: absolute;
+    top: 495vh;
+    left: 7.5vw;
+}
+.image-divulgacion img{
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+}
+
+.button2{
+    position: absolute;
+    top: 575vh;
+    left: 30vw;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .mainContainer {
+        background-color: #3D002F;
+        width: 100vw;
+        height: 650vh;
+        position: absolute;
+        margin: -10px;
+    }
+    
+    .thirdContainer {
+        background-color: #2501013f;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2; 
+    }
+    
+    .proposity {
+        width: 100vw;
+        height: 10vh;
+        background-color: #000000;
+        position: absolute; 
+        top: 100vh; 
+        left: 0vw; 
+        z-index: 1; 
+    }
+    
+    .proposity h1{
+        text-align: left;
+        color: #fff;
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+        font-style: italic; 
+        font-size: 30px;
+        position: absolute;
+        left: 10vw;
+    }
+    
+    .proposity1 {
+        width: 100vw;
+        height: 40vh; 
+        position: absolute; 
+        top: 120vh; 
+        left: 0;
+        z-index: 1; 
+    }
+    
+    .proposity1 img {
+        width: 50vw; 
+        height: 60vh; 
+        position: absolute;
+        top: -11vh;
+    }
+    
+    .Background img {
+       display: none;   
+    }
+    
+    .Background2 img{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;   
+    }
+    
+    .button {
+        top: 80vh;
+        left: -2vw; 
+        position: relative; 
+        z-index: 3; 
+    }
+    
+    .proposityText{
+        width: 50vw;
+        height: 25vh;
+        background-color: #000000;
+        position: absolute; 
+        top: 169vh; 
+        left: 0; 
+        z-index: 1; 
+    }
+    
+    .proposityText h1{
+        color: #fff;
+        text-align: left;
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+        font-style: italic; 
+        font-size: 30px;
+        position: absolute;
+        left: 10vw;
+    }
+    
+    .proposityText p{
+        color: #fff;
+        text-align: center;
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+        font-size: 15px;
+        position: absolute;
+        left: 10vw;
+        top: 10vh;
+    }
+    
+    .proposity2 {
+        width: 50vw;
+        height: 40vh; 
+        position: absolute; 
+        top: 185vh; 
+        left: 0;
+        z-index: 1; 
+    }
+    
+    .proposity2 img {
+        width: 50vw; 
+        height: 60vh; 
+        position: absolute;
+        top: -76vh;
+        left: 98.5vh;
+    }
+    
+    .proposityText2{
+        width: 50vw;
+        height: 25vh;
+        background-color: #000000;
+        position: absolute; 
+        top: 169vh; 
+        left: 50vw; 
+        z-index: 1; 
+    }
+    
+    .proposityText2 h1{
+        color: #fff;
+        text-align: center;
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+        font-style: italic; 
+        font-size: 30px;
+    }
+    
+    .proposityText2 p{
+        color: #fff;
+        text-align: center;
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+        font-size: 15px;
+    }
+    
+    .button2 {
+        top: 240vh;
+        left: -2vw; 
+        position: relative; 
+        z-index: 3; 
+    }
+    
+    .footer{
+        position: absolute;
+        top: 520vh;
+    }
+    
+    .container-speakers{
+        width: 100vw;
+        height: 8vh;
+        background-color: #000000;
+        position: absolute; 
+        top: 200vh; 
+        left: 0; 
+        z-index: 1; 
+    }
+    .container-speakers h1{
+        color: #fff;
+        text-align: center;
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+        font-style: italic; 
+        font-size: 25px;
+        position: absolute;
+        top: -1vh;
+        left: 40vw;
+    }
+    
+    .container-list{
+        width: 100vw;
+        height: 6vh;
+        background-color: #00000094;
+        position: absolute; 
+        top: 210vh; 
+        left: 0; 
+        z-index: 1; 
+    }
+    .container-list h1{
+        color: #fff;
+        text-align: center;
+        font-style: italic; 
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+        font-size: 15px;
+    }
+    
+    .speakers1{
+        position: absolute;
+        width: 200vw;
+        height: 150vh;
+        top: 220vh;
+        left: 10vw;
+    }
+    .theme{
+        color: #fff;
+        text-align: left;
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+        font-size: 15px;   
+        position: absolute;
+        left: 1vw;
+    }
+    .more{
+        color: #fff;
+        text-align: left;
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+        font-size: 15px;  
+        position: absolute;
+        left: 25vw;
+        top: 45vh;
+    }
+    
+    .speakers2{
+        position: absolute;
+        width: 100vw;
+        height: 50vh;
+        top: 220vh;
+        left: 50vw;
+    }
+    .theme2{
+        color: #fff;
+        text-align: left;
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+        font-size: 15px;   
+        position: absolute;
+        left: 1vw;
+    }
+    .more2{
+        color: #fff;
+        text-align: left;
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+        font-size: 15px;  
+        position: absolute;
+        left: 25vw;
+        top: 45vh;
+    }
+    
+    .education{
+        width: 100vw;
+        height: 8vh; 
+        background-color: #00000094;
+        position: absolute; 
+        top: 280vh; 
+        left: 0; 
+        z-index: 1; 
+    }
+    
+    .education h1{
+        color: #fff;
+        text-align: center;
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+        font-size: 15px;
+    }
+    
+    .image-eduaction{
+        width: 30vw;
+        height: 80vh;
+        border-radius: 20px;
+        background-color: #bbbbbbb1;
+        position: absolute;
+        top: 295vh;
+        left: 3vw;
+    }
+    .image-eduaction img{
+        position: absolute;
+        left: 2vw;
+        top: 5vh;
+    }
+    
+    .image-science{
+        width: 30vw;
+        height: 80vh;
+        border-radius: 20px;
+        background-color: #bbbbbbb1;
+        position: absolute;
+        top: 295vh;
+        left: 35vw;
+    }
+    .image-science img{
+        position: absolute;
+        left: 2vw;
+        top: 5vh;
+    }
+    
+    .image-divulgacion{
+        width: 30vw;
+        height: 80vh;
+        border-radius: 20px;
+        background-color: #bbbbbbb1;
+        position: absolute;
+        top: 295vh;
+        left: 67vw;
+    }
+    .image-divulgacion img{
+        position: absolute;
+        left: 2vw;
+        top: 5vh;
+    }
+    
+    .button2{
+        position: absolute;
+        top: 575vh;
+        left: 30vw;
+    }
+}
