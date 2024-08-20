@@ -3,7 +3,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'IBM Plex Sans', sans-serif;
-    overflow: hidden; /* Evitar scroll en el body */
+    overflow: hidden; 
   }
   
   .container {
@@ -14,9 +14,8 @@ body, html {
     overflow: hidden; /* Evita scroll en el contenedor */
   }
   
-  /* Sección izquierda (Registro) */
+
   .left-section {
-    background-color: white;
     width: 50%;
     display: flex;
     align-items: center;
@@ -26,57 +25,84 @@ body, html {
     overflow: hidden; /* Evita scroll en la sección */
   }
   
-  .registration-container {
-    width: 100%;
-    max-width: 500px;
-    background-color: #f2f2f2; /* Fondo gris claro */
-    padding: 20px;
-    border-radius: 10px; /* Bordes redondeados */
-    box-sizing: border-box; /* Incluye padding y borde en el tamaño del contenedor */
+  .backregister img {
+    position: absolute;
+    width: auto;
+    height: 100vh;
+    top: 0vh;
+    left: -1vh;
+    z-index: -1;
   }
+
+  .logoctm img{
+    position: absolute;
+    width: auto;
+    height: 5vh;
+    top: 20vh;
+    left: 47vh;
+  }
+
+  .registration-container {
+    position: absolute; 
+    top: 240px; 
+    left: 180px; 
+    width: 90%;
+    max-width: 500px;
+    background-color: #64646448; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-sizing: border-box; 
+}
+
   
   .title {
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     font-style: italic;
-    color: #2f2020;
+    color: #ffffff;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    font-size: 1.4em;
   }
   
   .form-group {
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     margin-bottom: 15px;
+    color: white;
+    font-size: 12px;
   }
   
   input {
+    background-color: rgba(250, 250, 250, 0.253);
+    font-size: 14px;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc00;
     border-radius: 5px;
     box-sizing: border-box; /* Incluye padding y borde en el tamaño del input */
   }
   
   .submit-button {
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    padding: 10px 20px; /* Ajusta el tamaño al texto */
-    background-color: #2f2020;
+    padding: 5px 10px; /* Ajusta el tamaño al texto */
+    background-color: #24001C;
     color: white;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 12px;
     transition: background-color 0.3s, padding 0.3s;
+    float: right;
   }
   
   .submit-button:hover {
     background-color: #1f1f1f; /* Cambia ligeramente el color al pasar el cursor */
-    padding: 12px 24px; /* Tamaño aumentado al hacer hover */
+    padding: 10px 20px; 
   }
   
   .error-message {
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    color: #940a0a;
+    color: #ff5757;
     font-size: 0.9em;
     margin-top: 5px;
   }
@@ -91,33 +117,37 @@ body, html {
   
   /* Sección derecha (Información) */
   .right-section {
-    background-color: #2f2020;
-    width: 50%;
-    color: white;
+    position: absolute; /* Cambiado a absolute */
+    background-color: #24001C;
+    width: 75vh;
+    height: 100vh;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    box-sizing: border-box; /* Incluye padding y borde en el tamaño del contenedor */
-    height: 100vh; /* Asegura que cubra toda la altura de la ventana */
-    overflow: hidden; /* Evita scroll en la sección */
-  }
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+    top: 0; /* Puedes ajustar top y left según tus necesidades */
+    left: 111.3vh;
+}
   
   /* Contenedor de texto en la sección derecha */
   .text-container {
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     font-style: italic;
     text-align: center;
-    max-width: 100%; /* Asegura que el texto no desborde */
+    max-width: 100%; 
   }
   
   .big-text {
-    font-size: 3em;
+    font-size: 2em;
     margin: 20px 0;
   }
   
   .small-text {
-    font-size: 1.2em;
+    font-size: 0.9em;
     margin: 10px 0;
   }
   
