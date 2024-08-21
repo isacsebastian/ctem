@@ -16,6 +16,27 @@
     z-index: 2; 
 }
 
+.Background img {
+    display: none;   
+ }
+ 
+ .Background2 img{
+     width: 100vw;
+     height: 100vh;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;   
+ }
+
+
+.button {
+    top: 80vh;
+    left: -2vw; 
+    position: relative; 
+    z-index: 3; 
+}
+
 .proposity {
     width: 100vw;
     height: 8vh;
@@ -48,26 +69,6 @@
     height: 40vh; 
     position: absolute;
     top: -12vh;
-}
-
-.Background img {
-   display: none;   
-}
-
-.Background2 img{
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;   
-}
-
-.button {
-    top: 80vh;
-    left: -2vw; 
-    position: relative; 
-    z-index: 3; 
 }
 
 .proposityText{
@@ -333,6 +334,7 @@
 
 
 @media only screen and (min-width: 768px) {
+
     .mainContainer {
         background-color: #3D002F;
         width: 100vw;
