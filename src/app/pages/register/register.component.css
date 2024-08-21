@@ -1,153 +1,214 @@
 /* Estilos generales */
 body, html {
-    height: 100%;
-    margin: 0;
-    font-family: 'IBM Plex Sans', sans-serif;
-    overflow: hidden; 
-  }
-  
-  .container {
-    display: flex;
-    height: 100vh;
-    width: 100vw; /* Asegura que el contenedor ocupe todo el ancho */
-    margin: 0;
-    overflow: hidden; /* Evita scroll en el contenedor */
-  }
-  
+  height: 100%;
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif; 
+  height: auto; /* Elimina el espacio en blanco al final */
+  overflow-y: auto;
+}
 
-  .left-section {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    box-sizing: border-box; /* Incluye padding y borde en el tamaño del contenedor */
-    overflow: hidden; /* Evita scroll en la sección */
-  }
-  
-  .backregister img {
-    position: absolute;
-    width: auto;
-    height: 100vh;
-    top: 0vh;
-    left: -1vh;
-    z-index: -1;
-  }
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden; 
+}
 
-  .logoctm img{
-    position: absolute;
-    width: auto;
-    height: 5vh;
-    top: 20vh;
-    left: 47vh;
-  }
+.left-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box; 
+  overflow: hidden; 
+}
 
+.backregister img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.logoctm img {
+  position: absolute;
+  width: auto;
+  height: 40px; 
+  top: 160px; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.registration-container {
+  position: absolute; 
+  top: 50%; 
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 500px;
+  background-color: #64646448; 
+  padding: 20px;
+  border-radius: 10px; 
+  box-sizing: border-box; 
+}
+
+
+.title {
+  font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 1.4em;
+}
+
+.form-group {
+  font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+  margin-bottom: 15px;
+  color: white;
+  font-size: 12px;
+}
+
+input {
+  background-color: rgba(250, 250, 250, 0.253);
+  font-size: 14px;
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #cccccc00;
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+.submit-button {
+  font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+  padding: 5px 10px; 
+  background-color: #24001C;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s, padding 0.3s;
+  float: right;
+}
+
+.submit-button:hover {
+  background-color: #1f1f1f; 
+  padding: 10px 20px; 
+}
+
+.error-message {
+  font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+  color: #ff5757;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.success-message {
+  font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+  color: green;
+  font-size: 1.2em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.right-section {
+  position: absolute; 
+  background-color: #24001C;
+  width: 600px; 
+  height: 100%; 
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  top: 0; 
+  left: 36.6%;
+  transform: translateX(50%);
+}
+
+.text-container {
+  font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+  font-style: italic;
+  text-align: center;
+  max-width: 100%; 
+}
+
+.big-text {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.small-text {
+  font-size: 0.9em;
+  margin: 10px 0;
+}
+
+/* Estilos para pantallas móviles */
+@media screen and (max-width: 900px) {
   .registration-container {
-    position: absolute; 
-    top: 240px; 
-    left: 180px; 
-    width: 90%;
-    max-width: 500px;
-    background-color: #64646448; 
-    padding: 20px;
+    position: relative;
+    top: 0px; 
+    left: 0;
+    transform: none;
+    width: 90%; 
+    max-width: 400px;
+    height: auto; 
+    max-height: 680px;
+    margin: 0 auto; 
+    padding: 15px;
     border-radius: 10px; 
     box-sizing: border-box; 
+    overflow: hidden; 
+  }
 }
 
-  
-  .title {
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    font-style: italic;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 0px;
-    font-size: 1.4em;
-  }
-  
-  .form-group {
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    margin-bottom: 15px;
-    color: white;
-    font-size: 12px;
-  }
-  
-  input {
-    background-color: rgba(250, 250, 250, 0.253);
-    font-size: 14px;
+
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
     width: 100%;
-    padding: 5px;
-    margin-top: 5px;
-    border: 1px solid #cccccc00;
-    border-radius: 5px;
-    box-sizing: border-box; /* Incluye padding y borde en el tamaño del input */
+    height: auto;
   }
-  
-  .submit-button {
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    padding: 5px 10px; /* Ajusta el tamaño al texto */
-    background-color: #24001C;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 12px;
-    transition: background-color 0.3s, padding 0.3s;
-    float: right;
+
+  .left-section, .right-section {
+    width: 100%;
+    height: 700px;
+    padding: 10px;
   }
-  
-  .submit-button:hover {
-    background-color: #1f1f1f; /* Cambia ligeramente el color al pasar el cursor */
-    padding: 10px 20px; 
-  }
-  
-  .error-message {
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    color: #ff5757;
-    font-size: 0.9em;
-    margin-top: 5px;
-  }
-  
-  .success-message {
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    color: green;
-    font-size: 1.2em;
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  /* Sección derecha (Información) */
+
   .right-section {
-    position: absolute; /* Cambiado a absolute */
-    background-color: #24001C;
-    width: 75vh;
-    height: 100vh;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    box-sizing: border-box;
-    height: 100vh;
-    overflow: hidden;
-    top: 0; /* Puedes ajustar top y left según tus necesidades */
-    left: 111.3vh;
-}
-  
-  /* Contenedor de texto en la sección derecha */
+    display: none; 
+  }
+
+
   .text-container {
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    font-style: italic;
+    margin-top: 20px; 
+  }
+
+  .big-text, .small-text {
     text-align: center;
-    max-width: 100%; 
-  }
-  
-  .big-text {
-    font-size: 2em;
-    margin: 20px 0;
-  }
-  
-  .small-text {
-    font-size: 0.9em;
     margin: 10px 0;
   }
-  
+
+  .big-text {
+    font-size: 1.5em; 
+  }
+
+  .small-text {
+    font-size: 0.8em;
+  }
+
+  body, html {
+    height: auto; 
+    overflow-y: auto; 
+  }
+}
