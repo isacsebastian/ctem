@@ -1,286 +1,141 @@
-.container{
+/* Reseteo de márgenes y padding para evitar desbordamientos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.container {
     background-color: #3D002F;
-    width: 100vw;
-    height: 400vh;
-    position: absolute;
-    margin: -10px;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    position: relative;
+    padding: 10px;
+    overflow-x: hidden;
 }
 
-.image1 img{
-    width: 100vw;
-    height: auto; 
-    position: absolute; 
-    top: 0vh; 
-    left: 0;
+/* Imagen principal */
+.image1 img {
+    width: 100%;
+    height: auto;
+    position: relative;
 }
-.thematicname{
-    position: absolute;
+
+/* Estilo de texto temático */
+.thematicname {
     color: #fff;
     text-align: center;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     font-size: 31px;
-    left: 10vw;
-    top: 32vh;
+    margin: 20px auto;
+    max-width: 80%;
 }
 
-.thematicdes{
-    position: absolute;
+.thematicdes {
     color: #fff;
     text-align: left;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     font-size: 18px;
-    left: 37vw;
-    top: 37vh;
-}
-.button2{
-    position: absolute;
-    top: 52vh;
-    left: 58vw;
-}
-.title1{
-    width: 100vw;
-    height: 13vh;
-    background-color: #250101d3;
-    position: absolute; 
-    top: 75vh; 
-    left: 0; 
-    z-index: 1; 
+    margin: 20px auto;
+    max-width: 60%;
 }
 
-.title1 h1{
-    position: absolute;
+/* Botón */
+.button2 {
+    margin: 40px auto;
     text-align: center;
-    color: #fff;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
-    font-size: 30px;
-    top: 2vh;
-    left: 8vw;
+    display: block;
 }
 
-.container-text{
-    width: 100vw;
-    height: 50vh;
-    background-color: #fff;
-    position: absolute; 
-    top: 88vh; 
-    left: 0; 
-    z-index: 1;
-}
-
-.text1 h1{
-    position: absolute;
-    text-align: left;
-    color: #000000;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 20px;
-    top: 8vh;
-    left: 33vw; 
-}
-
-.text1 p{
-    position: absolute;
-    color: #000000;
-    text-align: left;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 14px;  
-    left: 33vw;
-    top: 17vh; 
-}
-
-.text2 h1{
-    position: absolute;
-    text-align: left;
-    color: #000000;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 20px;
-    top: 10vh;
-    left: 68vw; 
-}
-
-.text2 p{
-    position: absolute;
-    color: #000000;
-    text-align: left;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 14px;  
-    left: 68vw;
-    top: 17vh; 
-}
-
-.text3 h1{
-    position: absolute;
-    text-align: left;
-    color: #000000;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';
-    font-size: 20px;
-    top: 8vh;
-    left: 8vw; 
-}
-
-.text3 p{
-    position: absolute;
-    color: #000000;
-    text-align: left;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 14px;  
-    left: 8vw;
-    top: 18vh; 
-}
-
-.imageEducation img{
-    width: 50vh;
-    height: 50vh; 
-    position: absolute; 
-    top: 0vh; 
-    left: 0;
-    z-index: 1; 
-}
-
-.container-text2{
-    width: 100vw;
-    height: 50vh;
-    background-color: #fff;
-    position: absolute; 
-    top: 158vh; 
-    left: 0; 
-    z-index: 1;
-}
-
-.title2{
-    width: 100vw;
-    height: 13vh;
+/* Títulos */
+.title1, .title2, .title3 {
+    width: 100%;
+    height: auto;
     background-color: #250101d3;
-    position: absolute; 
-    top: 145vh; 
-    left: 0; 
-    z-index: 1; 
-}
-
-.title2 h1{
-    position: absolute;
-    text-align: center;
-    color: #fff;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
-    font-size: 30px;
-    top: 2vh;
-    left: 8vw;
-}
-
-.text4 h1{
-    position: absolute;
-    text-align: left;
-    color: #000000;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
-    font-size: 20px;
-    top: 8vh;
-    left: 38vw; 
-}
-
-.text4 p{
-    position: absolute;
-    color: #000000;
-    text-align: left;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 14px;  
-    left: 38vw;
-    top: 18vh; 
-}
-
-.text5 h1{
-    position: absolute;
-    text-align: left;
-    color: #000000;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 20px;
-    top: 8vh;
-    left: 33vw; 
-}
-
-.text5 p{
-    position: absolute;
-    color: #000000;
-    text-align: left;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 14px;  
-    left: 33vw;
-    top: 17vh; 
-}
-
-.text6 h1{
-    position: absolute;
-    text-align: left;
-    color: #000000;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 20px;
-    top: 8vh;
-    left: 68vw; 
-}
-
-.text6 p{
-    position: absolute;
-    color: #000000;
-    text-align: left;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 14px;  
-    left: 68vw;
-    top: 17vh; 
-}
-
-.imageScience img{
-    width: 50vh;
-    height: 50vh; 
-    position: absolute; 
-    top: 0vh; 
-    left: 72vw;
-    z-index: 1; 
-}
-
-.imageDivulgation img{
-    width: 50vh;
-    height: 50vh; 
-    position: absolute; 
-    top: 0vh; 
-    left: 0;
-    z-index: 1; 
-}
-
-.container-text3{
-    width: 100vw;
-    height: 50vh;
-    background-color: #fff;
-    position: absolute; 
-    top: 228vh; 
-    left: 0; 
+    padding: 20px 0;
     z-index: 1;
-}
-
-.title3{
-    width: 100vw;
-    height: 13vh;
-    background-color: #250101d3;
-    position: absolute; 
-    top: 215vh; 
-    left: 0; 
-    z-index: 1; 
-}
-
-.title3 h1{
-    position: absolute;
     text-align: center;
+}
+
+.title1 h1, .title2 h1, .title3 h1 {
     color: #fff;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     font-size: 30px;
-    top: 2vh;
-    left: 8vw;
+    margin: 0;
 }
 
-.footer{
-    position: absolute;
-    top: 220vh;
+/* Contenedor de texto */
+.container-text, .container-text2, .container-text3 {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    z-index: 1;
+    overflow-x: hidden;
 }
 
-.button{
-    position: absolute;
-    top: 285vh;
-    left: 43vw;
+.text1, .text2, .text3, .text4, .text5, .text6 {
+    color: #000;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    margin-bottom: 20px;
+    max-width: 90%;
+    margin: 0 auto 20px auto;
+}
+
+.text1 h1, .text2 h1, .text3 h1, .text4 h1, .text5 h1, .text6 h1 {
+    font-size: 20px;
+    margin: 8vh 0 2vh 0;
+}
+
+.text1 p, .text2 p, .text3 p, .text4 p, .text5 p, .text6 p {
+    font-size: 14px;
+}
+
+/* Imágenes adicionales */
+.imageEducation img, .imageScience img, .imageDivulgation img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Botón en el footer */
+.button {
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .thematicname {
+        font-size: 24px;
+        margin: 20px auto;
+        max-width: 90%;
+    }
+
+    .thematicdes {
+        font-size: 16px;
+        margin: 10px auto;
+        max-width: 90%;
+    }
+
+    .text1 h1, .text2 h1, .text3 h1, .text4 h1, .text5 h1, .text6 h1 {
+        font-size: 18px;
+    }
+
+    .text1 p, .text2 p, .text3 p, .text4 p, .text5 p, .text6 p {
+        font-size: 12px;
+    }
+
+    .imageEducation img, .imageScience img, .imageDivulgation img {
+        width: 100%;
+    }
 }
