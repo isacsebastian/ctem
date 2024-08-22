@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
 /* Contenedor principal */
 .container {
     background-color: #3D002F;
@@ -42,7 +48,7 @@
 .thematicdes {
     color: #fff;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    font-size: 18px;
+    font-size: 14px;
     margin: 0;
     max-width: 48%; /* Ajusta según necesites */
 }
@@ -92,7 +98,7 @@
 }
 
 .text1 h1, .text2 h1, .text3 h1, .text4 h1, .text5 h1, .text6 h1 {
-    font-size: 20px;
+    font-size: 22px;
     margin: 40px 0 20px 0; /* Ajustado el margen vertical en píxeles */
 }
 
@@ -104,7 +110,7 @@
 .imageEducation img, .imageScience img, .imageDivulgation img {
     width: 100%;
     height: auto;
-    margin: 10px 0; /* Reducido el margen vertical */
+
 }
 
 /* Footer */
@@ -221,8 +227,18 @@
     }
 
     /* Ajustes específicos para imágenes dentro de los contenedores */
-    .imageEducation img, .imageScience img, .imageDivulgation img {
+    .imageEducation img, .imageDivulgation img {
         width: 100%; 
-        height: 370px; /* Ajusta según el tamaño deseado */
+        height: 370px; 
+        margin: -14px; 
+    margin-top: -11px;
+    margin-left: -62px;
+    }
+    .imageScience img {
+        width: 100%; 
+        height: 370px; 
+        margin: -14px; 
+    margin-top: -11px;
+    margin-left: -35px;
     }
 }
