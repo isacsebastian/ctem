@@ -15,7 +15,7 @@ html, body {
     overflow-x: hidden;
 }
 
-.thirdContainer {
+/* .thirdContainer {
     background-color: #2501013f;
     width: 100%;
     height: 100vh;
@@ -23,7 +23,7 @@ html, body {
     top: 0;
     left: 0;
     z-index: 2;
-}
+} */
 
 .proposity, .proposityText, .proposityText2, .container-speakers, .container-list, .education, .science, .Divulgacion {
     width: 100%;
@@ -70,7 +70,7 @@ html, body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 100%;
+    width: 50%;
     height: auto;
     margin-top: 2vh;
 }

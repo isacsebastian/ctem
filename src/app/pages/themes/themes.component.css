@@ -9,18 +9,18 @@
 .container {
     background-color: #3D002F;
     width: 100%;
-    height: auto;
     min-height: 100vh;
-    position: relative;
     padding: 10px;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Imagen principal */
 .image1 img {
     width: 100%;
     height: auto;
-    position: relative;
 }
 
 /* Estilo de texto temático */
@@ -35,7 +35,7 @@
 
 .thematicdes {
     color: #fff;
-    text-align: left;
+    text-align: center;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     font-size: 18px;
     margin: 20px auto;
@@ -52,10 +52,8 @@
 /* Títulos */
 .title1, .title2, .title3 {
     width: 100%;
-    height: auto;
     background-color: #250101d3;
     padding: 20px 0;
-    z-index: 1;
     text-align: center;
 }
 
@@ -69,10 +67,8 @@
 /* Contenedor de texto */
 .container-text, .container-text2, .container-text3 {
     width: 100%;
-    height: auto;
     background-color: #fff;
     padding: 20px;
-    z-index: 1;
     overflow-x: hidden;
 }
 
@@ -103,7 +99,9 @@
 /* Footer */
 .footer {
     text-align: center;
-    margin: 40px 0;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
 }
 
 /* Botón en el footer */
