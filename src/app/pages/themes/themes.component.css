@@ -1,45 +1,50 @@
-/* Reseteo de márgenes y padding para evitar desbordamientos */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Contenedor principal */
 .container {
     background-color: #3D002F;
     width: 100%;
-    min-height: 100vh;
-    padding: 10px;
+    min-height: 1000px; /* Ajusta según la altura mínima deseada en píxeles */
+    padding: 3px;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 
-/* Imagen principal */
 .image1 img {
     width: 100%;
     height: auto;
+    position: relative;
+}
+
+/* Contenedor para .thematicname y .thematicdes */
+.thematic-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 20px; /* Ajusta el valor según el espacio deseado desde el borde superior */
+    width: 100%;
+    max-width: 1200px; /* Ajusta según el ancho máximo deseado */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
 }
 
 /* Estilo de texto temático */
 .thematicname {
     color: #fff;
-    text-align: center;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     font-size: 31px;
-    margin: 20px auto;
-    max-width: 80%;
+    margin: 0;
+    max-width: 48%; /* Ajusta según necesites */
 }
 
 .thematicdes {
     color: #fff;
-    text-align: center;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     font-size: 18px;
-    margin: 20px auto;
-    max-width: 60%;
+    margin: 0;
+    max-width: 48%; /* Ajusta según necesites */
 }
 
 /* Botón */
@@ -55,6 +60,7 @@
     background-color: #250101d3;
     padding: 20px 0;
     text-align: center;
+    z-index: 1;
 }
 
 .title1 h1, .title2 h1, .title3 h1 {
@@ -68,21 +74,26 @@
 .container-text, .container-text2, .container-text3 {
     width: 100%;
     background-color: #fff;
-    padding: 20px;
+    padding: 10px; /* Reducido el padding vertical */
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: height 0.3s ease;
 }
 
+/* Estilos de los textos */
 .text1, .text2, .text3, .text4, .text5, .text6 {
     color: #000;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     margin-bottom: 20px;
-    max-width: 90%;
     margin: 0 auto 20px auto;
+    text-align: left;
 }
 
 .text1 h1, .text2 h1, .text3 h1, .text4 h1, .text5 h1, .text6 h1 {
     font-size: 20px;
-    margin: 8vh 0 2vh 0;
+    margin: 40px 0 20px 0; /* Ajustado el margen vertical en píxeles */
 }
 
 .text1 p, .text2 p, .text3 p, .text4 p, .text5 p, .text6 p {
@@ -93,7 +104,7 @@
 .imageEducation img, .imageScience img, .imageDivulgation img {
     width: 100%;
     height: auto;
-    margin: 20px 0;
+    margin: 10px 0; /* Reducido el margen vertical */
 }
 
 /* Footer */
@@ -112,16 +123,23 @@
 }
 
 /* Media Queries para Responsividad */
-@media (max-width: 768px) {
+
+/* Ajustes para pantallas móviles (no se tocan) */
+@media (max-width: 900px) {
+    .image1 {
+        display: none; 
+    }
+
+
     .thematicname {
         font-size: 24px;
-        margin: 20px auto;
+        margin: 65px auto 0px;
         max-width: 90%;
     }
 
     .thematicdes {
         font-size: 16px;
-        margin: 10px auto;
+        margin: 0px auto 10px;
         max-width: 90%;
     }
 
@@ -135,5 +153,76 @@
 
     .imageEducation img, .imageScience img, .imageDivulgation img {
         width: 100%;
+    }
+}
+
+/* Ajustes para pantallas de escritorio */
+@media (min-width: 901px) {
+    .image1 {
+        position: relative;
+        z-index: 0;
+        max-height: 400px;
+    }
+
+    .thematic-container {
+        position: absolute;
+        top: 20px; /* Ajusta el valor según el espacio deseado desde el borde superior */
+        width: 100%;
+        max-width: 1200px; /* Ajusta según el ancho máximo deseado */
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+
+    .thematicname, .thematicdes {
+        position: absolute;
+        transform: translateX(-50%);
+        max-width: 48%;
+        margin: 0;
+    }
+    
+    .thematicname {
+        top: 3%;
+        left: 50%;
+        font-size: 32px;
+    }
+    
+    .thematicdes {
+        top: 9%;
+        left: 50%;
+        font-size: 18px;
+    }
+
+    .button2 {
+        position: absolute;
+        top: 11%;
+        left: 70%;
+        margin: 40px auto;
+        text-align: center;
+        display: block;
+    }
+    
+
+    /* Ajustes para las secciones de texto en pantallas grandes */
+    .container-text, .container-text2, .container-text3 {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+        z-index: 1;
+        padding: 0 50px; /* Ajusta el padding horizontal en píxeles */
+    }
+
+    .text1, .text2, .text3, .text4, .text5, .text6,
+    .imageEducation, .imageScience, .imageDivulgation {
+        flex: 1; 
+        max-width: 50%;
+        margin: 10px;
+    }
+
+    /* Ajustes específicos para imágenes dentro de los contenedores */
+    .imageEducation img, .imageScience img, .imageDivulgation img {
+        width: 100%; 
+        height: 370px; /* Ajusta según el tamaño deseado */
     }
 }
