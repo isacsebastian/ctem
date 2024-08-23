@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container{
     background-color: #3D002F;
     width: 100vw;
@@ -6,6 +7,8 @@
     position: absolute;
     margin: -10px;
 =======
+=======
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
 /* Reseteo de márgenes y padding para evitar desbordamientos */
 * {
     margin: 0;
@@ -29,6 +32,7 @@
 .image1 img {
     width: 100%;
     height: auto;
+<<<<<<< HEAD
 >>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
 }
 
@@ -49,10 +53,21 @@
     left: 10vw;
     top: 32vh;
 =======
+=======
+}
+
+/* Estilo de texto temático */
+.thematicname {
+    color: #fff;
+    text-align: center;
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     font-size: 31px;
     margin: 20px auto;
     max-width: 80%;
+<<<<<<< HEAD
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
+=======
 >>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
 }
 
@@ -60,17 +75,23 @@
     position: absolute;
     color: #fff;
 <<<<<<< HEAD
+<<<<<<< HEAD
     text-align: left;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';
     font-size: 18px;
     left: 37vw;
     top: 37vh;
 =======
+=======
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
     text-align: center;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     font-size: 18px;
     margin: 20px auto;
     max-width: 60%;
+<<<<<<< HEAD
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
+=======
 >>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
 }
 .button2{
@@ -92,6 +113,7 @@
     position: absolute;
     text-align: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: #fff;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
     font-size: 30px;
@@ -107,6 +129,8 @@
     top: 88vh; 
     left: 0; 
     z-index: 1;
+=======
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
 }
 
 .text1 h1{
@@ -156,6 +180,9 @@
 .text1 h1, .text2 h1, .text3 h1, .text4 h1, .text5 h1, .text6 h1 {
     font-size: 20px;
     margin: 8vh 0 2vh 0;
+<<<<<<< HEAD
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
+=======
 >>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
 }
 
@@ -184,6 +211,9 @@
     width: 100%;
     height: auto;
     margin: 20px 0;
+<<<<<<< HEAD
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
+=======
 >>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
 }
 
@@ -392,4 +422,7 @@
         width: 100%;
     }
 }
+<<<<<<< HEAD
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
+=======
 >>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
