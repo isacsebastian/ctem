@@ -4,12 +4,14 @@ html, body {
     width: 100%;
     height: 100%;
 }
+
 /* Contenedor principal */
 .container {
     background-color: #3D002F;
-    width: 100%;
-    min-height: 1000px; /* Ajusta según la altura mínima deseada en píxeles */
-    padding: 3px;
+    width: 101.55%;
+    min-height: 1000px; /* Ajusta según la altura mínima  */
+    padding: 0px;
+    margin: -1%;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -27,9 +29,8 @@ html, body {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 20px; /* Ajusta el valor según el espacio deseado desde el borde superior */
-    width: 100%;
-    max-width: 1200px; /* Ajusta según el ancho máximo deseado */
+    top: 20px; 
+    max-width: 1200px; 
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
@@ -40,7 +41,7 @@ html, body {
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     font-size: 31px;
     margin: 0;
-    max-width: 48%; /* Ajusta según necesites */
+    max-width: 48%; 
 }
 
 .thematicdes {
