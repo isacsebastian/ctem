@@ -7,7 +7,7 @@
 
 .card {
     width: 75vw;
-    height: 60vh;
+    height: 70vh;
     border-radius: 20px;
     background-color: #40153661;
     position: absolute;
@@ -15,139 +15,133 @@
     left: 12vw;
     opacity: 1;
     box-shadow: 0 8px 15px #0000004d; 
-    transition: all 0.3s ease-in-out; /* Agrega una transición suave */
 }
 
 .image1 img {
-    width: 50vw;
-    height: auto; /* Ajusta la altura automáticamente */
+    width: 40vw;
+    height: 61vh;
     position: absolute;
-    left: 15vw;
-    top: 5vh;
+    left: 45vw;
+    top: 1vh;
 }
 
 .imgText1 {
     position: absolute;
-    top: 25vh;
-    left: 10vw;
-    width: 60vw;
-    text-align: center;
+    top: 5vh;
 }
 
 .imgText1 h1 {
     color: #fff;
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';  
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
     font-style: italic; 
-    font-size: 4.5vw; /* Usa vw para una tipografía responsive */
-    margin-bottom: 20px;
+    font-size: 22px;
 }
 
 .imgText1 p {
     color: #fff;
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta'; 
-    font-size: 3vw; /* Usa vw para una tipografía responsive */
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 14px;
 }
-
 
 .sub-image1 img {
-    top: 10vh; /* Ajusta esto para alinearlo con el párrafo */
-    left: 1vw; /* Mantiene la misma posición horizontal */
-    width: 5vw; /* Mantiene el mismo ancho */
-    height: auto; /* Mantiene la altura automática */
-}
-
-.sub-image2 img {
-    top: 26vh; /* Ajusta esto para alinearlo con el párrafo */
-    left: 1vw; /* Mantiene la misma posición horizontal */
-    width: 5vw; /* Mantiene el mismo ancho */
-    height: auto; /* Mantiene la altura automática */
-}
-
-.sub-image3 img {
-    top: 32vh; /* Ajusta esto para alinearlo con el párrafo */
-    left: 1vw; /* Mantiene la misma posición horizontal */
-    width: 5vw; /* Mantiene el mismo ancho */
-    height: auto; /* Mantiene la altura automática */
-}
-
-.sub-image4 img {
-    top: 39vh; /* Ajusta esto para alinearlo con el párrafo */
-    left: 1vw; /* Mantiene la misma posición horizontal */
-    width: 5vw; /* Mantiene el mismo ancho */
-    height: auto; /* Mantiene la altura automática */
-}
-
-
-.sub-image1 {
-    top: 23vh;
+    position: absolute;
+    width: 5vw;
+    height: 3vh;
+    left: 12vw;
+    top: 8vh;
 }
 
 .sub-image1 p {
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
+    font-size: 13px;
     left: 24vw;
-    top: 21vh;
-}
-
-.sub-image2 {
-    top: 29vh;
-}
-
-.sub-image2 p {
-    left: 24vw;
-    top: 26vh;
-}
-
-.sub-image3 {
-    top: 35vh;
-}
-
-.sub-image3 p {
-    left: 24vw;
-    top: 31vh;
-}
-
-.sub-image4 {
-    top: 42vh;
-}
-
-.sub-image4 p {
-    left: 24vw;
-    top: 36vh;
+    top: 6vh;
 }
 
 @media only screen and (min-width: 768px) {
     .card {
-        width: 85vw;
+        width: 75vw;
         height: 60vh;
-        left: 7.5vw; /* Ajuste para centrar mejor en pantallas más grandes */
+        border-radius: 20px;
+        background-color: #8e878c61;
+        position: absolute;
+        top: 12vh;
+        left: 5vw;
+        opacity: 1;
+        animation: none;
     }
 
     .image1 img {
         width: 40vw;
-        top: 0vh;
-        left: 50%;
-        transform: translateX(-50%); /* Centrar la imagen */
-    }
-
-    .imgText1 {
-        top: 10vh;
-        left: 10vw;
-        width: 80vw;
+        height: 61vh;
+        position: absolute;
+        left: 35vw;
+        top: 0.5vh;
     }
 
     .imgText1 h1 {
-        font-size: 3vw;
-        margin-top: 10%;
+        font-size: 25px;
+        position: relative;
+        top: -1vh;
+        left: 8vw;
     }
 
-    .imgText1 p {
-        font-size: 2vw;
+    .sub-image1 img {
+        width: 2vw;
+        height: 4vh;
+        left: 12vw;
+        top: 15vh;
     }
 
-    .sub-image1 img, .sub-image2 img, .sub-image3 img, .sub-image4 img {
-        width: 4vw;
+    .sub-image1 p {
+        position: relative;
+        left: 17vw;
+        top: 0.5vh;
     }
 
-    .sub-image1 p, .sub-image2 p, .sub-image3 p, .sub-image4 p {
-        font-size: 2vw;
+    .sub-image2 img {
+        width: 2vw;
+        height: 4vh;
+        left: 12vw;
+        top: 22vh;
+    }
+
+    .sub-image2 p {
+        position: relative;
+        left: 12vw;
+        top: 3vh;
+    }
+
+    .sub-image3 img {
+        width: 2vw;
+        height: 3vh;
+        left: 12vw;
+        top: 31vh;
+    }
+
+    .sub-image3 p {
+        position: relative;
+        left: 13vw;
+        top: 6vh;
+    }
+
+    .sub-image4 img {
+        width: 2vw;
+        height: 3vh;
+        left: 12vw;
+        top: 38vh;
+    }
+
+    .sub-image4 p {
+        position: relative;
+        left: 10vw;
+        top: 8vh;
     }
 }
+
+
