@@ -6,7 +6,7 @@ body {
   .main-container {
       background-color: #200119;
       width: 100%;
-      margin:-10px ;
+      margin:0px ;
       padding: 0 20px;
       font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
       z-index: 2;
@@ -216,14 +216,14 @@ body {
       padding: .5rem 1rem;
       position: absolute;
       left: 50%;
-      bottom: 0;
+      bottom: 10%;
       opacity: 0;
       transition: 0.3s ease-out;
       cursor: pointer;
   }
   
   .text-body {
-      color: #868686;
+      color: #fefbfb;
   }
   
   .text-title {
@@ -240,16 +240,20 @@ body {
       transform: translate(-50%, 50%);
       opacity: 1;
     }
+
+
+
+/* MOBILE */
+
     @media (max-width: 768px) {
       body {
-        margin: 0;
         font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     }
     .main-container {
       background-color: #200119;
       width: 100%;
       margin:-40px ;
-      padding: 0 20px;
+      padding: 4px 22px;
       font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
       z-index: 2;
   }
@@ -290,7 +294,7 @@ body {
     cursor: pointer;
   }
   .title-container {
-    width: auto;
+    width: 100vw;
     height: 8vh;
     background-color: #00000094;
     position: relative;
@@ -321,22 +325,23 @@ body {
   .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
-  
+    
   .column {
     flex: 1;
     padding: 10px;
-    text-align: left;
+    text-align: center;
   }
   
   .column img {
-    width: 45vw;
+    width: 80vw;
     height: auto;
+    margin-left: 35px;
   }
   .column p {
     margin-top: 10px;
-    color: white; /* Cambia el color del párrafo a blanco */
+    color: white;
     margin-left: 35px;
   }
   
@@ -402,7 +407,8 @@ body {
   /* From Uiverse.io by alexruix */ 
       /* Estilo para las tarjetas */
       .card {
-        width: 20vw;
+        width: 50vw;
+        height: 40vh;
         border-radius: 20px;
         background: #47023793;
         position: relative;
@@ -419,16 +425,15 @@ body {
     
     .card img {
         width: 100%;
-        height: auto;
+        height: 30vh;
         border-radius: 15px;
+        margin-left: 7px;
+        margin-top: 20px;
     }
     .card-details {
       color: black;
       height: 100%;
       gap: .5em;
-      display: grid;
-      place-content: center;
-      text-align: center;
   }
   .card-button {
     transform: translate(-50%, 125%);
@@ -441,7 +446,7 @@ body {
     padding: .5rem 1rem;
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom: 10%;
     opacity: 0;
     transition: 0.3s ease-out;
     cursor: pointer;
@@ -465,21 +470,21 @@ body {
     opacity: 1;
   }
   
-  /* Responsivo */
-  @media (max-width: 768px) {
+  @media (min-width: 769px) {
     .row.three-columns .column {
-        flex: 1 1 100%;
-    }
-  }
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .row.three-columns .column {
-        flex: 1 1 45%;
+      display: block;
     }
   }
   
-  @media (min-width: 1025px) {
-    .row.three-columns .column {
-        flex: 1 1 30%;
+  @media (max-width: 768px) {
+    .row.three-columns .column:nth-child(n+2) {
+      display: none;
     }
   }
+
+  .button, .footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
   }

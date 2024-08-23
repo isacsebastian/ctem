@@ -3,6 +3,7 @@ import { CardsComponent } from '../../components/cards/cards.component';
 import { CarouselimgComponent } from '../../components/carouselimg/carouselimg.component';
 import { ButtonComponent } from '../../components/button/button.component';
 import { FooterComponent } from '../../components/footer/footer.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -12,5 +13,9 @@ import { FooterComponent } from '../../components/footer/footer.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+    constructor(private router: Router) {}
+  
+    navigateToOther() {
+      this.router.navigate(['register']);
+    }
 }
