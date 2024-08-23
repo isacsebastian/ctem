@@ -1,9 +1,35 @@
+<<<<<<< HEAD
 .container{
     background-color: #3D002F;
     width: 100vw;
     height: 400vh;
     position: absolute;
     margin: -10px;
+=======
+/* Reseteo de márgenes y padding para evitar desbordamientos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #3D002F;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Imagen principal */
+.image1 img {
+    width: 100%;
+    height: auto;
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
 }
 
 .image1 img{
@@ -17,20 +43,35 @@
     position: absolute;
     color: #fff;
     text-align: center;
+<<<<<<< HEAD
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';
     font-size: 31px;
     left: 10vw;
     top: 32vh;
+=======
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    font-size: 31px;
+    margin: 20px auto;
+    max-width: 80%;
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
 }
 
 .thematicdes{
     position: absolute;
     color: #fff;
+<<<<<<< HEAD
     text-align: left;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';
     font-size: 18px;
     left: 37vw;
     top: 37vh;
+=======
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    font-size: 18px;
+    margin: 20px auto;
+    max-width: 60%;
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
 }
 .button2{
     position: absolute;
@@ -50,6 +91,7 @@
 .title1 h1{
     position: absolute;
     text-align: center;
+<<<<<<< HEAD
     color: #fff;
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
     font-size: 30px;
@@ -85,6 +127,36 @@
     font-size: 14px;  
     left: 33vw;
     top: 17vh; 
+=======
+}
+
+.title1 h1, .title2 h1, .title3 h1 {
+    color: #fff;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    font-size: 30px;
+    margin: 0;
+}
+
+/* Contenedor de texto */
+.container-text, .container-text2, .container-text3 {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6 {
+    color: #000;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    margin-bottom: 20px;
+    max-width: 90%;
+    margin: 0 auto 20px auto;
+}
+
+.text1 h1, .text2 h1, .text3 h1, .text4 h1, .text5 h1, .text6 h1 {
+    font-size: 20px;
+    margin: 8vh 0 2vh 0;
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
 }
 
 .text2 h1{
@@ -97,6 +169,7 @@
     left: 68vw; 
 }
 
+<<<<<<< HEAD
 .text2 p{
     position: absolute;
     color: #000000;
@@ -105,6 +178,13 @@
     font-size: 14px;  
     left: 68vw;
     top: 17vh; 
+=======
+/* Imágenes adicionales */
+.imageEducation img, .imageScience img, .imageDivulgation img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
 }
 
 .text3 h1{
@@ -274,6 +354,7 @@
     left: 8vw;
 }
 
+<<<<<<< HEAD
 .footer{
     position: absolute;
     top: 220vh;
@@ -284,3 +365,31 @@
     top: 285vh;
     left: 43vw;
 }
+=======
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .thematicname {
+        font-size: 24px;
+        margin: 20px auto;
+        max-width: 90%;
+    }
+
+    .thematicdes {
+        font-size: 16px;
+        margin: 10px auto;
+        max-width: 90%;
+    }
+
+    .text1 h1, .text2 h1, .text3 h1, .text4 h1, .text5 h1, .text6 h1 {
+        font-size: 18px;
+    }
+
+    .text1 p, .text2 p, .text3 p, .text4 p, .text5 p, .text6 p {
+        font-size: 12px;
+    }
+
+    .imageEducation img, .imageScience img, .imageDivulgation img {
+        width: 100%;
+    }
+}
+>>>>>>> parent of 2ea42d1 (Merge branch 'master' of https://github.com/isacsebastian/ctem)
