@@ -1,116 +1,164 @@
-.container {
+.container{
     background-color: #000000;
-    width: 100%;
-    padding: 40px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    margin: -1px;
+    margin-top: 90vh;
 }
 
-.footer-section {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
+.title h1{
+    position: absolute;
+    text-align: left;
     color: #fff;
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    font-size: 15px;
-    margin-bottom: 30px;
-    flex-wrap: wrap; /* Permite que las columnas se ajusten en múltiples líneas si es necesario */
-}
-
-.column {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box; /* Asegura que el padding se incluya dentro del ancho */
-    padding: 0 10px; /* Añade un pequeño padding lateral */
-}
-
-.column h1 {
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
     font-size: 20px;
-    margin-bottom: 15px;
+    top: 5vh;
+    left: 13vw; 
+}
+
+.text1 p{
+    position: absolute;
     color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 10vh; 
 }
 
-.column p {
-    margin: 8px 0;
+.text2 p{
+    position: absolute;
     color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 14vh; 
 }
 
-.icons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.icons img {
-    width: 24px;
-    height: 24px;
-    margin: 0 10px;
-}
-
-.logo-section {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.logo-section img {
-    max-width: 150px;
-    height: auto;
-}
-
-.logo-suda {
-    padding: 15%;
-}
-
-.logo-ctem img {
-    max-width: 150px;
-    height: auto;
-}
-
-.autor {
-    margin-top: 30px;
+.text3 p{
+    position: absolute;
     color: #fff;
-    text-align: center;
-    font-size: 14px;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 18vh; 
 }
 
-/* Ajustes para pantallas pequeñas */
-@media (max-width: 768px) {
-    .footer-section {
-        flex-direction: column;
-        align-items: center;
-        width: 100%; /* Asegura que la sección ocupe todo el ancho de la pantalla */
-    }
-
-    .column {
-        width: 100%;
-        margin-bottom: 20px;
-        padding: 0 15px; /* Añade más padding lateral para darle espacio */
-    }
-
-    .icons {
-        justify-content: center; /* Centra los íconos en pantallas pequeñas */
-    }
-
-    .logo-section img, .logo-ctem img {
-        max-width: 120px; /* Ajusta el tamaño del logo para pantallas pequeñas */
-    }
+.text4 P{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 16vw;
+    top: 22vh; 
 }
 
-/* Ajustes para pantallas muy pequeñas (menos de 480px) */
-@media (max-width: 480px) {
-    .column h1 {
-        font-size: 18px; /* Reduce el tamaño del título para pantallas muy pequeñas */
-    }
+.text5 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 13px;  
+    left: 16vw;
+    top: 25vh; 
+}
 
-    .column p {
-        font-size: 14px; /* Reduce el tamaño del texto para pantallas muy pequeñas */
-    }
+.title2 h1{
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 20px;
+    top: 5vh;
+    left: 60vw; 
+}
 
-    .icons img {
-        width: 20px; /* Reduce el tamaño de los íconos para pantallas muy pequeñas */
-        height: 20px;
-    }
+.text6 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 60vw;
+    top: 10vh; 
+}
+
+.text7 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 60vw;
+    top: 14vh; 
+}
+
+.text8 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 60vw;
+    top: 18vh; 
+}
+
+.line{
+    width: 85vw;
+    height: 0.2vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 37vh;
+    left: 8vw;   
+}
+
+.logo-suda img{
+    position: absolute;
+    left: 10vw;
+    top: 40vh;
+}
+
+.line2{
+    width: 85vw;
+    height: 0.2vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 80vh;
+    left: 8vw;   
+}
+
+.icon-what{
+    position: absolute;
+    left: 25vw;
+    top: 83vh;
+}
+
+.icon-face{
+    position: absolute;
+    left: 35vw;
+    top: 83vh;
+}
+
+.icon-insta{
+    position: absolute;
+    left: 45vw;
+    top: 83vh;
+}
+
+.icon-tiktok{
+    position: absolute;
+    left: 55vw;
+    top: 83vh;
+}
+
+.icon-link{
+    position: absolute;
+    left: 65vw;
+    top: 83vh;
 }
