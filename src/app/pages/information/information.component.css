@@ -3,7 +3,9 @@ body {
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
   }
   
-
+  .main {
+    background-color: #200119;
+}
 
 .thirdContainer, .button, .objective, .principles-information, .mission-vision {
     margin: 20px 0;
@@ -60,7 +62,8 @@ body {
 }
 .principles p {
     color: #ffffff;
-    padding: 5%; 
+    padding: 15%;
+
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
 
 }
@@ -72,11 +75,11 @@ body {
 
 }
 
-/* .principles {
+.principles {
     display: flex;
     flex-direction: column;
     gap: 10px;
-} */
+}
 
 button {
     display: block;
@@ -86,13 +89,6 @@ h1 {
     text-align: center;
 }
 
-/* Footer */
-.footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #000000;
-    color: #fff;
-}
 @media (max-width: 768px) {
     .mission-vision, .principles-information {
         flex-direction: column;
