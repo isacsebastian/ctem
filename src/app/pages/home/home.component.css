@@ -46,28 +46,18 @@ body {
     margin: 20px 0;
     position: relative;
     z-index: 10;  
-    margin-top: 40px;
+    bottom: 160px;
+    margin-left: 43%;
     }
-  
-  .button-container button {
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-  }
 
   .button-container2 {
     text-align: center;
     margin: 20px 0;
     position: relative;
     z-index: 10;  
-    margin-top: 290px;
+    top: 20px;
+    margin-left: 43%;
     }
-  
-  .button-container2 button {
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-  }
 
   .title-container {
     width: auto;
@@ -189,6 +179,7 @@ body {
   padding: 20px;
   background-color: #000000;
   color: #fff;
+  margin-top: 120px;
 }
   /* Responsivo para las tarjetas principales */
   @media (max-width: 768px) {
@@ -203,8 +194,6 @@ body {
         width: 90vw;
     }
   }
-  /* From Uiverse.io by alexruix */ 
-  /* Estilo para las tarjetas */
   .card {
     width: 20vw;
       border-radius: 20px;
@@ -269,9 +258,7 @@ body {
       transform: translate(-50%, 50%);
       opacity: 1;
     }
-    .footer{
-      margin-left: -20px;
-    }
+   
 
 
 
@@ -314,27 +301,21 @@ body {
   }
   .button-container {
     text-align: center;
+    margin: 20px 0;
     position: relative;
-    z-index: 10; 
-    margin-top: 20%;
-  }
-  
-  .button-container button {
-    padding: 10px 20px;
-    font-size: 18px;
-  
-  }
+    z-index: 10;  
+    bottom: 160px;
+    margin-left: 100px;
+    }
 
   .button-container2 {
     text-align: center;
+    margin: 20px 0;
     position: relative;
     z-index: 10;  
+    bottom: 5px;
+    margin-left: 100px;
     }
-  
-  .button-container2 button {
-    padding: 10px 20px;
-    font-size: 18px;
-  }
 
   .title-container {
     width: 100vw;
@@ -381,6 +362,7 @@ body {
     width: 80vw;
     height: auto;
     margin-left: 35px;
+    border-radius: 20px;
   }
   .column p {
     margin-top: 10px;
@@ -395,8 +377,8 @@ body {
     margin: 20px 0;
   }
   .main-card {
-    width: 40vw;
-    height: 20vh;
+    width: 50vw;
+    height: 40vh;
     border-radius: 20px;
     background: #47023793;
     position: relative;
@@ -502,6 +484,7 @@ body {
   .text-title {
     font-size: 1.5em;
     font-weight: bold;
+    text-align: left;
   }
   
   .card:hover {
