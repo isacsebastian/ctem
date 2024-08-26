@@ -60,8 +60,7 @@ body {
 }
 .principles p {
     color: #ffffff;
-    padding: 15%;
-
+    padding: 5%; 
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
 
 }
@@ -73,11 +72,11 @@ body {
 
 }
 
-.principles {
+/* .principles {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
+} */
 
 button {
     display: block;
@@ -87,6 +86,13 @@ h1 {
     text-align: center;
 }
 
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
+}
 @media (max-width: 768px) {
     .mission-vision, .principles-information {
         flex-direction: column;
