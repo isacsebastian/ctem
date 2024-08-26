@@ -1,16 +1,15 @@
 /* Estilos generales */
 body, html {
-  height: 100%;
   margin: 0;
   font-family: 'IBM Plex Sans', sans-serif; 
-  height: auto; /* Elimina el espacio en blanco al final */
-  overflow-y: auto;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 .container {
   display: flex;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   margin: 0;
   overflow: hidden; 
 }
@@ -21,15 +20,15 @@ body, html {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  box-sizing: border-box; 
-  overflow: hidden; 
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .backregister img {
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   top: 0;
   left: 0;
   z-index: -1;
@@ -45,18 +44,17 @@ body, html {
 }
 
 .registration-container {
-  position: absolute; 
-  top: 50%; 
+  position: absolute;
+  top: 50%;
   left: 30%;
   transform: translate(-50%, -50%);
   width: 90%;
   max-width: 500px;
-  background-color: #64646448; 
+  background-color: #64646448;
   padding: 20px;
   border-radius: 10px; 
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
-
 
 .title {
   font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
@@ -82,12 +80,12 @@ input {
   margin-top: 5px;
   border: 1px solid #cccccc00;
   border-radius: 5px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .submit-button {
   font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-  padding: 5px 10px; 
+  padding: 5px 10px;
   background-color: #24001C;
   color: white;
   border: none;
@@ -99,8 +97,8 @@ input {
 }
 
 .submit-button:hover {
-  background-color: #1f1f1f; 
-  padding: 10px 20px; 
+  background-color: #1f1f1f;
+  padding: 10px 20px;
 }
 
 .error-message {
@@ -119,10 +117,10 @@ input {
 }
 
 .right-section {
-  position: absolute; 
+  position: absolute;
   background-color: #24001C;
-  width: 600px; 
-  height: 100%; 
+  width: 600px;
+  height: 100%;
   color: #fff;
   display: flex;
   align-items: center;
@@ -130,16 +128,16 @@ input {
   padding: 20px;
   box-sizing: border-box;
   overflow: hidden;
-  top: 0; 
-  left: 36.6%;
-  transform: translateX(50%);
+  top: 0;
+  left: 79.2%;
+  transform: translateX(-50%);
 }
 
 .text-container {
   font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
   font-style: italic;
   text-align: center;
-  max-width: 100%; 
+  max-width: 100%;
 }
 
 .big-text {
@@ -152,25 +150,41 @@ input {
   margin: 10px 0;
 }
 
+/* Media queries para ajustar la anchura de la right-section en escritorio */
+@media screen and (max-width: 1200px) {
+  .right-section {
+    width: 500px;
+    left: 79%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .right-section {
+    width: 300px;
+    left: 83%;
+  }
+}
+
+
+
 /* Estilos para pantallas móviles */
 @media screen and (max-width: 900px) {
   .registration-container {
     position: relative;
-    top: 0px; 
+    top: 0px;
     left: 0;
     transform: none;
-    width: 90%; 
+    width: 90%;
     max-width: 400px;
-    height: auto; 
+    height: auto;
     max-height: 680px;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding: 15px;
-    border-radius: 10px; 
-    box-sizing: border-box; 
-    overflow: hidden; 
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
   }
 }
-
 
 @media screen and (max-width: 900px) {
   .container {
@@ -186,12 +200,11 @@ input {
   }
 
   .right-section {
-    display: none; 
+    display: none;
   }
 
-
   .text-container {
-    margin-top: 20px; 
+    margin-top: 20px;
   }
 
   .big-text, .small-text {
@@ -200,7 +213,7 @@ input {
   }
 
   .big-text {
-    font-size: 1.5em; 
+    font-size: 1.5em;
   }
 
   .small-text {
@@ -208,7 +221,7 @@ input {
   }
 
   body, html {
-    height: auto; 
-    overflow-y: auto; 
+    height: auto;
+    overflow-y: auto;
   }
 }
