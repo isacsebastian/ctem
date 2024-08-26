@@ -7,141 +7,226 @@
 
 .card {
     width: 75vw;
-    height: 70vh;
+    height: 65vh;
     border-radius: 20px;
     background-color: #40153661;
     position: absolute;
-    top: 12vh;
+    top: 8vh;
     left: 12vw;
     opacity: 1;
-    box-shadow: 0 8px 15px #0000004d; 
+    box-shadow: 0 8px 15px #00000065; 
 }
 
 .image1 img {
-    width: 40vw;
-    height: 61vh;
+    width: 55vw;
     position: absolute;
-    left: 45vw;
-    top: 1vh;
+    left: 10vw;
+    top: 4vh;
 }
 
 .imgText1 {
     position: absolute;
-    top: 5vh;
 }
 
 .imgText1 h1 {
     color: #fff;
-    text-align: center;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
-    font-style: italic; 
-    font-size: 22px;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';  
+    font-style: italic;
+    text-align: center; 
+    font-size: 5vw; /* Usa vw para una tipografía responsive */
+    margin-top: 210px;
+    margin-left: 1px;
 }
 
 .imgText1 p {
     color: #fff;
-    text-align: center;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 14px;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta'; 
+    font-size: 3vw; /* Usa vw para una tipografía responsive */
 }
 
+
 .sub-image1 img {
-    position: absolute;
-    width: 5vw;
-    height: 3vh;
-    left: 12vw;
-    top: 8vh;
+    top: 35vh; /* Ajusta esto para alinearlo con el párrafo */
+    left: 5vw; /* Mantiene la misma posición horizontal */
+    width: 5vw; /* Mantiene el mismo ancho */
+    height: auto; /* Mantiene la altura automática */
+}
+
+.sub-image2 img {
+    top: 42vh; /* Ajusta esto para alinearlo con el párrafo */
+    left: 5vw; /* Mantiene la misma posición horizontal */
+    width: 5vw; /* Mantiene el mismo ancho */
+    height: auto; /* Mantiene la altura automática */
+}
+
+.sub-image3 img {
+    top: 47vh; /* Ajusta esto para alinearlo con el párrafo */
+    left: 5vw; /* Mantiene la misma posición horizontal */
+    width: 5vw; /* Mantiene el mismo ancho */
+    height: auto; /* Mantiene la altura automática */
+}
+
+.sub-image4 img {
+    top: 52vh; /* Ajusta esto para alinearlo con el párrafo */
+    left: 5vw; /* Mantiene la misma posición horizontal */
+    width: 5vw; /* Mantiene el mismo ancho */
+    height: auto; /* Mantiene la altura automática */
+}
+
+.sub-image1 {
+    top: 23vh;
 }
 
 .sub-image1 p {
-    position: absolute;
-    color: #fff;
-    text-align: left;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';  
-    font-size: 13px;
-    left: 24vw;
-    top: 6vh;
+    margin-left: 20%;
+    margin-top: 8%;
+    font-size: 13px; /* Usa vw para una tipografía responsive */
+}
+.sub-image2 {
+    top: 29vh;
 }
 
+.sub-image2 p {
+    margin-left: 20%;
+    margin-top: 11%;
+    font-size: 13px; /* Usa vw para una tipografía responsive */
+}
+.sub-image3 {
+    top: 35vh;
+}
+
+.sub-image3 p {
+    margin-left: 20%;
+    margin-top: 9%;
+    font-size: 13px; /* Usa vw para una tipografía responsive */
+}
+
+.sub-image4 {
+    top: 42vh;
+}
+
+.sub-image4 p {
+    margin-left: 20%;
+    margin-top: 9%;
+    font-size: 13px; /* Usa vw para una tipografía responsive */
+}
+
+
 @media only screen and (min-width: 768px) {
+    .carousel {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
     .card {
-        width: 75vw;
+        width: 80vw;
         height: 60vh;
         border-radius: 20px;
-        background-color: #8e878c61;
+        background-color: #40153661;
         position: absolute;
-        top: 12vh;
-        left: 5vw;
+        top: 8vh;
+        left: 12vw;
         opacity: 1;
-        animation: none;
+        box-shadow: 0 8px 15px #00000065; 
     }
-
+    
     .image1 img {
         width: 40vw;
         height: 61vh;
         position: absolute;
-        left: 35vw;
+        left: 40vw;
         top: 0.5vh;
     }
-
-    .imgText1 h1 {
-        font-size: 25px;
-        position: relative;
-        top: -1vh;
-        left: 8vw;
+    
+    .imgText1 {
+        position: absolute;
     }
-
+    
+    .imgText1 h1 {
+        color: #fff;
+        font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';  
+        font-style: italic;
+        text-align: center; 
+        font-size: 40px; /* Usa vw para una tipografía responsive */
+        margin-top: 35px;
+        margin-left: 60px;
+    }
+    
+    .imgText1 p {
+        color: #fff;
+        font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta'; 
+        font-size: 3vw; /* Usa vw para una tipografía responsive */
+    }
+    
+    
     .sub-image1 img {
         width: 2vw;
         height: 4vh;
-        left: 12vw;
-        top: 15vh;
+        left: 10vw;
+        top: 23vh;
     }
-
-    .sub-image1 p {
-        position: relative;
-        left: 17vw;
-        top: 0.5vh;
-    }
-
+    
     .sub-image2 img {
         width: 2vw;
         height: 4vh;
-        left: 12vw;
-        top: 22vh;
+        left: 10vw;
+        top: 33vh;
     }
-
-    .sub-image2 p {
-        position: relative;
-        left: 12vw;
-        top: 3vh;
-    }
-
+    
     .sub-image3 img {
         width: 2vw;
         height: 3vh;
-        left: 12vw;
-        top: 31vh;
+        left: 10vw;
+        top: 44vh;
     }
-
-    .sub-image3 p {
-        position: relative;
-        left: 13vw;
-        top: 6vh;
-    }
-
+    
     .sub-image4 img {
         width: 2vw;
         height: 3vh;
-        left: 12vw;
-        top: 38vh;
-    }
-
-    .sub-image4 p {
-        position: relative;
         left: 10vw;
-        top: 8vh;
+        top: 53vh;
     }
+    
+    .sub-image1 {
+        top: 23vh;
+    }
+    
+    .sub-image1 p {
+        margin-left: 40%;
+        margin-top: 6%;
+        font-size: 20px; /* Usa vw para una tipografía responsive */
+    }
+    .sub-image2 {
+        top: 29vh;
+    }
+    
+    .sub-image2 p {
+        margin-left: 40%;
+        margin-top: 8%;
+        font-size: 20px; /* Usa vw para una tipografía responsive */
+    }
+    .sub-image3 {
+        top: 35vh;
+    }
+    
+    .sub-image3 p {
+        margin-left: 40%;
+        margin-top: 9%;
+        font-size: 20px; /* Usa vw para una tipografía responsive */
+    }
+    
+    .sub-image4 {
+        top: 42vh;
+    }
+    
+    .sub-image4 p {
+        margin-left: 40%;
+        margin-top: 9%;
+        font-size: 20px; /* Usa vw para una tipografía responsive */
+    }
+    
 }
 
 

@@ -10,7 +10,7 @@
     padding: 20px 20px;
     font-size: 16px;
     font-weight: bold;
-    cursor: not-allowed; 
+    cursor: pointer; 
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta';
 }
 
