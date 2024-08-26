@@ -1,124 +1,99 @@
-/* Reseteo de márgenes y padding */
-* {
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+  }
+  
+
+
+.thirdContainer, .button, .objective, .principles-information, .mission-vision {
+    margin: 20px 0;
 }
 
-/* Contenedor principal */
-.container {
-    background-color: #a74848;
-    width: 100%;
-    height: auto;
-    min-height: 100vh;
-    position: relative;
-    overflow-x: hidden;
-    padding: 20px;
-}
-
-/* Misión y Visión en columnas */
-.mission-vision {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-bottom: 40px;
-}
-
-.container-mission, .container-vision {
-    flex: 1;
-    padding: 20px;
-}
-
-.container-mission h1, .container-vision h1 {
-    font-size: 30px;
-    text-align: center;
-}
-
-.text-mission, .text-vision {
-    text-align: center;
-    font-size: 16px;
-}
-
-/* Principios en columnas */
-.principles {
+.mission-vision, .principles-information {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    margin-bottom: 40px;
 }
 
-.principles .text2, .principles .text3, .principles .text4 {
-    flex: 1;
-    color: #fff;
+.container-mission{
+    width: 48%;
+    background-color: #200119;
+} 
+.container-mission p{
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding: 15%;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    font-size: 14px;
-    text-align: left;
-    padding: 20px;
-    background-color: #080808a0;
-    border-radius: 10px;
+
+} 
+.container-mission h1{
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+
+    
 }
 
-/* Imagen de fondo */
-.information img {
+.container-vision p{
+    align-items: center;
+    justify-content: center;
+    color: #200119;
+    padding: 15%;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+
+}
+.container-vision h1{
+    color: #200119;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+
+}
+.container-vision, .information{
+    width: 48%;
+    background-color: #ffffff;
+}
+.information img{
     width: 100%;
     height: auto;
-    margin-bottom: 40px;
 }
-
-/* Objetivo */
-.objective {
-    width: 100%;
-    background-color: #080808a0;
-    padding: 20px;
-    margin-bottom: 40px;
-    border-radius: 10px;
+.principles {
+    width: 48%;
+    background-color: #200119;
 }
+.principles p {
+    color: #ffffff;
+    padding: 15%;
 
-.objective h1 {
-    font-size: 30px;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 20px;
-}
-
-.text-objective p {
-    text-align: center;
-    color: #fff;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    font-size: 16px;
+
 }
 
-/* Botones */
-.button, .footer {
-    text-align: center;
-    margin-top: 20px;
-}
-
-	
-/* Media Queries para pantallas más grandes */
-@media only screen and (min-width: 768px) {
-    .mission-vision {
-        flex-direction: row;
-    }
-
-    .principles {
-        flex-direction: row;
-    }
-
-    .container-mission, .container-vision {
-        margin-bottom: 0;
-    }
-
-    .container-mission h1, .container-vision h1, .objective h1 {
-        font-size: 35px;
-    }
-
-    .text-mission, .text-vision, .text-objective p {
-        font-size: 18px;
-    }
-}
-
-/* Estilo general */
-body {
+.principles h1 {
+    color: #ffffff;
+    padding: 15%;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+
+}
+
+.principles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .mission-vision, .principles-information {
+        flex-direction: column;
+    }
+
+    .container-mission, .container-vision, .information, .principles {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }

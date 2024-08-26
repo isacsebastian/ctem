@@ -53,12 +53,12 @@ header {
   bottom: 0;
   width: 0%;
   height: 2px;
-  background-color: #9348f5;
+  background-color: #ffffff;
   transition: width 200ms ease-in-out;
 }
 
 .desktop_menu ul li:hover {
-  color: #9348f5;
+  color: #ffffff;
 }
 
 .desktop_menu ul li:hover::after {
@@ -79,7 +79,7 @@ header {
 }
 
 .menu-icon:hover {
-  color: #9348f5; /* Cambio de color al pasar sobre el ícono */
+  color: #ffffff; /* Cambio de color al pasar sobre el ícono */
   transform: rotate(90deg); /* Rotación suave al pasar el mouse */
 }
 
