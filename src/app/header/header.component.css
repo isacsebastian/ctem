@@ -74,7 +74,7 @@ header {
   cursor: pointer;
   display: none;
   font-size: 40px;
-  /* margin-right: 20px; Ajusta el margen derecho para separar el ícono del borde */
+  margin-right: -200px; 
   transition: transform 0.3s ease, color 0.3s ease;
 }
 

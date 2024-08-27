@@ -88,6 +88,13 @@ button {
 h1 {
     text-align: center;
 }
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
+}
 
 @media (max-width: 768px) {
     .mission-vision, .principles-information {
