@@ -120,45 +120,54 @@ header {
 .button:hover::before {
   width: 250%;
 }
-
 @media screen and (max-width: 900px) {
   header {
     justify-content: space-between;
-    padding: 20px 10px; /* Ajusta el padding para mayor consistencia en dispositivos móviles */
+    padding: 20px 10px;
   }
 
   .desktop_menu {
-    background: rgba(0, 0, 0, 0.85);
+    background: linear-gradient(45deg, #200119, #3d0025); /* Fondo mejorado */
+    box-shadow: -4px 0 15px rgba(0, 0, 0, 0.5); /* Sombra para mayor profundidad */
     height: 100%;
     position: fixed;
     top: 64px;
     right: 0;
     width: 280px;
     display: none;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(100%); /* Inicialmente fuera de la pantalla */
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transform: translateX(100%);
   }
 
   .desktop_menu.mobile_menu {
     display: block;
-    transform: translateX(0); /* Mostrar el menú deslizándose desde la derecha */
+    transform: translateX(0);
   }
 
   .desktop_menu ul {
     display: block;
-    padding: 20px 0; /* Espacio adicional para una mejor separación entre elementos */
+    padding: 20px 0;
   }
 
   .desktop_menu ul li {
-    border-bottom: 1px solid grey;
-    display: block;
-    margin: 0;
-    padding: 10px 20px; /* Ajuste de padding para mayor separación del borde */
+    border-bottom: 1px solid #a0a0a0;
+    padding: 15px 25px;
     text-align: left;
+    color: #ffffff;
+  }
+
+  .desktop_menu ul li:hover {
+    background: rgba(255, 255, 255, 0.1);
   }
 
   .menu-icon {
     display: block;
-    margin-right: 15px; /* Ajusta la separación del icono del borde derecho */
+    margin-right: 42px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .menu-icon:hover {
+    color: #471f3e;
+    transform: scale(1.1);
   }
 }

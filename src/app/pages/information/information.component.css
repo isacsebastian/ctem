@@ -1,14 +1,14 @@
 body {
     margin: 0;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-  }
+}
   
-  .main {
+.main {
     background-color: #200119;
 }
 
 .thirdContainer, .button, .objective, .principles-information, .mission-vision {
-    margin: 20px 0;
+    margin: 0px 0;
 }
 
 .mission-vision, .principles-information {
@@ -16,79 +16,100 @@ body {
     justify-content: space-between;
 }
 
-.container-mission{
-    width: 48%;
-    background-color: #200119;
-} 
-.container-mission p{
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    padding: 15%;
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-
-} 
-.container-mission h1{
-    color: #ffffff;
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-
-    
-}
-
-.container-vision p{
-    align-items: center;
-    justify-content: center;
-    color: #200119;
-    padding: 15%;
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-
-}
-.container-vision h1{
-    color: #200119;
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-
-}
-.container-vision, .information{
-    width: 48%;
-    background-color: #ffffff;
-}
-.information img{
+.carousel {
     width: 100%;
     height: auto;
 }
+.container-mission {
+    width: 50%;
+    background-color: #200119;
+} 
+
+.container-mission p {
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding: 5%; 
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    margin: 0; 
+    line-height: 1.5; 
+} 
+
+.container-mission h1 {
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    margin-bottom: 15px;
+}
+
+.container-vision {
+    width: 50%;
+    background-color: #ffffff;
+}
+
+.container-vision p {
+    align-items: center;
+    justify-content: center;
+    color: #200119;
+    padding: 5%;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    margin: 0;
+    line-height: 1.5;
+}
+
+.container-vision h1 {
+    color: #200119;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    margin-bottom: 15px;
+}
+
+.information {
+    width: 50%;
+    background-color: #ffffff;
+}
+
+.information img {
+    width: 100%;
+    height: 100%;
+}
+
 .principles {
     width: 48%;
     background-color: #200119;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
 }
+
 .principles p {
     color: #ffffff;
-    padding: 15%;
-
+    padding: 2%;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-
+    margin: 0;
+    line-height: 1;
 }
 
 .principles h1 {
     color: #ffffff;
-    padding: 15%;
+    padding: 2%;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-
+    margin-bottom: 10px;
 }
 
-.principles {
+.text-objective p {
+    margin-bottom: 10px;
+}
+
+.button {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    margin-left: -145px;
+    padding: 10px 0 100px 0;
 }
 
-button {
-    display: block;
-    margin: 0 auto;
-}
 h1 {
     text-align: center;
 }
-/* Footer */
+
 .footer {
     text-align: center;
     padding: 20px;
