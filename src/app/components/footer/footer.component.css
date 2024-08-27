@@ -92,6 +92,7 @@
 
     .icons {
         justify-content: center; /* Centra los íconos en pantallas pequeñas */
+        gap: 20px;
     }
 
     .logo-section img, .logo-ctem img {
