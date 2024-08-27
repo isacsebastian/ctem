@@ -1,7 +1,7 @@
-body {
+/* body {
     margin: 0;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-}
+} */
 
 .main {
     background-color: #200119;
@@ -41,7 +41,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 20px;
     border-radius: 25px;
-    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    backdrop-filter: blur(5px); /* Efecto de desenfoque */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
     margin-bottom: 10px; /* Aumenta el espacio entre los elementos */
@@ -198,5 +198,11 @@ h1 {
 
     .text-title img {
         width: 40px; /* Disminuye el tamaño de la imagen en pantallas pequeñas */
+    }
+
+    .background-container {
+        background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+        background-position: center; /* Centra la imagen en el contenedor */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
     }
 }
