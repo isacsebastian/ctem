@@ -182,15 +182,6 @@ body {
   background-color: #7b0660;
 }
 
-/* Footer */
-.footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #000000;
-  color: #fff;
-  margin-top: 120px;
-}
-
 /* Responsivo para las tarjetas principales */
 @media (max-width: 768px) {
   .main-card {
@@ -262,6 +253,17 @@ body {
   transform: translate(-50%, 50%);
   opacity: 1;
 }
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #fff;
+  margin-top: 120px;
+}
+
+
 
 /* MOBILE */
 
