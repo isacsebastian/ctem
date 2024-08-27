@@ -2,9 +2,65 @@ body {
     margin: 0;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
 }
-  
+
 .main {
     background-color: #200119;
+}
+
+.title {
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    color: #ffffff;
+    margin-bottom: 1px;
+    padding-top: 10px; 
+    text-align: center;
+    /* background-image: url('assets/Background2.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;  */
+}
+
+.text-title {
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    text-align: center;
+    padding: 70px 0px 0px 0px; 
+    margin-bottom: 10px;
+}
+
+.text-title img {
+    width: 50px;
+    height: auto;
+}
+
+.details-container {
+    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
+    color: #ffffff;
+    width: 600px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo transparente */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 25px;
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-bottom: 10px; /* Aumenta el espacio entre los elementos */
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.detail-item:last-child {
+    margin-bottom: 0;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
 }
 
 .thirdContainer, .button, .objective, .principles-information, .mission-vision {
@@ -20,20 +76,21 @@ body {
     width: 100%;
     height: auto;
 }
+
 .container-mission {
     width: 50%;
     background-color: #200119;
-} 
+}
 
 .container-mission p {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    padding: 5%; 
+    padding: 5%;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    margin: 0; 
-    line-height: 1.5; 
-} 
+    margin: 0;
+    line-height: 1.5;
+}
 
 .container-mission h1 {
     color: #ffffff;
@@ -117,6 +174,7 @@ h1 {
     color: #fff;
 }
 
+/* Responsiveness */
 @media (max-width: 768px) {
     .mission-vision, .principles-information {
         flex-direction: column;
@@ -125,5 +183,20 @@ h1 {
     .container-mission, .container-vision, .information, .principles {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .details-container {
+        width: 80%;
+        padding: 20px 10px; /* Ajusta el padding para pantallas pequeñas */
+    }
+
+    .text-title {
+        padding: 60px 10px 0px 0px; /* Baja el contenido en pantallas pequeñas */
+        margin-bottom: 50px;
+        font-size: 18px; /* Disminuye el tamaño de la fuente en pantallas pequeñas */
+    }
+
+    .text-title img {
+        width: 40px; /* Disminuye el tamaño de la imagen en pantallas pequeñas */
     }
 }
