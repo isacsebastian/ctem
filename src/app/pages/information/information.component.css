@@ -209,6 +209,10 @@ h1 {
         padding-bottom: 20px;
     }
 
+    .information{
+        background-color: #200119;
+    }
+
     .details-container {
         width: 80%;
         padding: 20px 10px; /* Ajusta el padding para pantallas pequeñas */
