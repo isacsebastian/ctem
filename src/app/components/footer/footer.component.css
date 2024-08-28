@@ -76,6 +76,26 @@
     font-size: 14px;
 }
 
+.icons a svg {
+    stroke: #ffffff; /* Color blanco por defecto */
+    fill: #ffffff00; /* Para los iconos que usan fill */
+    transition: stroke 0.3s ease, fill 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.icons a:hover svg {
+    stroke: #800080; /* Color morado al hacer hover */
+    fill: #80008000; /* Cambiar a morado al hacer hover para los iconos que usan fill */
+}
+
+.icons a:nth-child(4) svg {
+    fill: #ffffff; /* Fill blanco solo para el cuarto ícono */
+}
+
+.icons a:nth-child(4):hover svg {
+    fill: #800080; /* Fill morado solo para el cuarto ícono cuando se hace hover */
+}
+
+
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
     .footer-section {
