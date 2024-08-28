@@ -26,11 +26,11 @@ body, html {
 
 .backregister img {
   position: absolute;
-  width: 100%;
+  width: 101%;
   height: 100%;
   object-fit: cover;
   top: 0;
-  left: 0;
+  left: -1%;
   z-index: -1;
 }
 
