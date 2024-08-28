@@ -50,7 +50,7 @@ body {
 .details-container span {
     font-weight: 400;
     font-size: 18px;
-    margin-bottom: 20px; 
+    /* margin-bottom: 20px;  */
 
 }
 
@@ -89,6 +89,7 @@ body {
 .container-mission {
     width: 50%;
     background-color: #200119;
+    padding-bottom: 28px;
 }
 
 .container-mission p {
@@ -99,6 +100,7 @@ body {
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     margin: 0;
     line-height: 2;
+    font-size: 14px;
 }
 
 .container-mission h1 {
@@ -121,6 +123,8 @@ body {
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     margin: 0;
     line-height: 2;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .container-vision h1 {
@@ -153,7 +157,9 @@ body {
     padding: 2%;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     margin: 0;
-    line-height: 1;
+    line-height: 2;
+    font-size: 14px;
+
 }
 
 .principles h1 {
@@ -161,10 +167,14 @@ body {
     padding: 2%;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     margin-bottom: 10px;
+
 }
 
 .text-objective p {
     margin-bottom: 10px;
+    line-height: 2;
+    font-size: 14px;
+
 }
 
 .button {
@@ -176,6 +186,8 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 30px;
+
 }
 
 .footer {
@@ -194,17 +206,20 @@ h1 {
     .container-mission, .container-vision, .information, .principles {
         width: 100%;
         margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 
     .details-container {
         width: 80%;
         padding: 20px 10px; /* Ajusta el padding para pantallas pequeñas */
+
     }
 
     .text-title {
         padding: 60px 10px 0px 0px; /* Baja el contenido en pantallas pequeñas */
         margin-bottom: 50px;
         font-size: 18px; /* Disminuye el tamaño de la fuente en pantallas pequeñas */
+
     }
 
     .text-title img {

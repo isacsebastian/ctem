@@ -131,10 +131,12 @@ header {
   header {
     justify-content: space-between;
     padding: 20px 10px;
+    background: #200119; 
+
   }
 
   .desktop_menu {
-    background: linear-gradient(45deg, #3d0025, #200119); 
+    background: linear-gradient(45deg, #0e010b, #200119); 
     box-shadow: -4px 0 15px rgba(0, 0, 0, 0.5); 
     height: 100%;
     position: fixed;
@@ -174,7 +176,7 @@ header {
   }
 
   .menu-icon:hover {
-    color: #471f3e;
+    color: #d7d7d7;
     transform: scale(1.1);
   }
 }

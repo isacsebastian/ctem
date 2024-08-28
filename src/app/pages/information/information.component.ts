@@ -8,6 +8,6 @@ import { CarouselimgComponent } from '../../components/carouselimg/carouselimg.c
   standalone: true,
   imports: [ButtonComponent, FooterComponent, CarouselimgComponent],
   templateUrl: './information.component.html',
-  styleUrls: ['./information.component.css'] // Corrección: Cambiar styleUrl a styleUrls
+  styleUrls: ['./information.component.css'] 
 })
 export class InformationComponent { }
