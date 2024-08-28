@@ -385,6 +385,7 @@ body {
     justify-content: center;
     margin: 20px 50px;
     gap: 5px;
+    margin-left: 15%;
   }
 
   .main-card {
@@ -446,19 +447,17 @@ body {
 /* Estilo para las tarjetas */
 .card {
   width: 50vw;
-  height: 40vh;
-  border-radius: 20px;
-  background: #47023793;
-  position: relative;
-  padding: 1.8rem;
-  border: 2px solid #c3c6ce43;
-  transition: 0.5s ease-out;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: 50px;
+    height: 45vh;
+    border-radius: 20px;
+    background: #47023793;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce43;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+    text-align: right;
+    margin: 0 20px;
+    margin-left: 15%;
 }
 
 .card img {
@@ -494,6 +493,7 @@ body {
 
 .text-body {
   color: #868686;
+  text-align: right;
 }
 
 .text-title {
@@ -505,7 +505,7 @@ body {
 .text-title2 {
   font-size: 1.5em;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 
 .card:hover {
