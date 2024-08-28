@@ -3,14 +3,11 @@ import { ButtonComponent } from '../../components/button/button.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { CarouselimgComponent } from '../../components/carouselimg/carouselimg.component';
 
-
 @Component({
   selector: 'app-information',
   standalone: true,
   imports: [ButtonComponent, FooterComponent, CarouselimgComponent],
   templateUrl: './information.component.html',
-  styleUrl: './information.component.css'
+  styleUrls: ['./information.component.css'] // Corrección: Cambiar styleUrl a styleUrls
 })
-export class InformationComponent {
-
-}
+export class InformationComponent { }
