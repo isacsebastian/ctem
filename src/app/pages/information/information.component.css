@@ -96,7 +96,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    padding: 5%;
+    padding: 10%;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     margin: 0;
     line-height: 2;
@@ -119,7 +119,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #200119;
-    padding: 5%;
+    padding: 10%;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     margin: 0;
     line-height: 2;
@@ -154,7 +154,8 @@ body {
 
 .principles p {
     color: #ffffff;
-    padding: 2%;
+    padding: 4%;
+
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     margin: 0;
     line-height: 2;
@@ -209,6 +210,11 @@ h1 {
         padding-bottom: 20px;
     }
 
+    .principles p{
+        padding: 10%;
+
+    }
+
     .information{
         background-color: #200119;
     }
@@ -216,12 +222,14 @@ h1 {
     .details-container {
         width: 80%;
         padding: 20px 10px; /* Ajusta el padding para pantallas pequeñas */
-
+        margin-top: -40px;
     }
 
     .text-title {
         padding: 60px 10px 0px 0px; /* Baja el contenido en pantallas pequeñas */
         margin-bottom: 50px;
+        padding: 10%;
+
         font-size: 18px; /* Disminuye el tamaño de la fuente en pantallas pequeñas */
 
     }

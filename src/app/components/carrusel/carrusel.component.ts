@@ -23,12 +23,7 @@ interface Slide {
 export class CarruselComponent implements OnInit {
   slides: Slide[] = [
     {
-      title: 'Título 1',
-      description: 'Descripción del primer slide. Aquí puedes poner el texto que desees para cada diapositiva.',
-      imageUrl: 'assets/image2.png'
-    },
-    {
-      title: 'Título 2',
+      title: 'Educación, Ciencia y Divulgación Matemática',
       description: 'Detalles del evento:',
       imageUrl: 'assets/image2.png',
       details: [
@@ -70,9 +65,19 @@ export class CarruselComponent implements OnInit {
       ]
     },
     {
-      title: 'Título 3',
-      description: 'Descripción del tercer slide. Personaliza este contenido como desees.',
-      imageUrl: 'assets/image2.png'
+      title: 'Educación',
+      description: 'A través del aprendizaje de conceptos matemáticos, los estudiantes adquieren las herramientas necesarias para diseñar algoritmos, optimizar sistemas y manejar grandes volúmenes de datos.',
+      imageUrl: 'assets/image3.png',
+    },
+    {
+      title: 'Ciencia',
+      description: 'Actúa como un lenguaje universal que permite modelar, analizar y mejorar sistemas complejos. Su aplicación permite el desarrollo de <br> tecnologías avanzadas y contribuye a la creación de soluciones innovadoras en software.',
+      imageUrl: 'assets/image4.png',
+    },
+    {
+      title: 'Divulgacion Matemática',
+      description: 'A través de la divulgación, se busca <br> explicar de manera clara y comprensible los conceptos matemáticos fundamentales para <br> crear algoritmos y mejorar la seguridad en los sistemas digitales.',
+      imageUrl: 'assets/image4.png'
     }
   ];
 
