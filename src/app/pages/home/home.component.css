@@ -10,10 +10,7 @@ body {
   padding: 0 5px;
   font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
   z-index: 2;
-<<<<<<< Updated upstream
 } 
-=======
-}
 
 .background2 img {
   display: none;
@@ -26,7 +23,6 @@ body {
   left: 0;
   z-index: 1;
 }
->>>>>>> Stashed changes
 
 .carousel {
   position: relative;
