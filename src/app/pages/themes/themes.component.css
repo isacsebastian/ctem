@@ -170,12 +170,14 @@ font-size: 22px;
     .text1 h1, .text2 h1, .text3 h1, .text4 h1, .text5 h1, .text6 h1 {
         font-size: 20px;
         text-align: center;
-        margin-left: -10%;
+        margin-left: -5%;
+        width: 125%;
     }
 .text1 p, .text2 p, .text3 p, .text4 p, .text5 p, .text6 p {
         font-size: 14px;
         text-align: center;
-        margin-left: -10%;
+        margin-left: -5%;
+        width: 125%;
     }
 
     .imageEducation img, .imageScience img, .imageDivulgation img {
