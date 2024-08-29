@@ -3,14 +3,14 @@ body {
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
   }
   
-  .main {
-    background-color: #200119;
-    width: 102%;
+  /* .main {
+    background-color: #c76eb2;
+    width: 100%;
     margin: -8px;
     padding: 0 5px;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
     z-index: 2;
-  }
+  } */
 
 .title {
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
