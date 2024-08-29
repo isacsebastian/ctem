@@ -79,7 +79,7 @@ line-height: 30px;
 .container-text, .container-text2, .container-text3 {
     width: 100%;
     background-color: #fff;
-    padding: 10px; /* Reducido el padding vertical */
+    padding: 0px; /* Reducido el padding vertical */
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -90,9 +90,9 @@ line-height: 30px;
 .text1, .text2, .text3, .text4, .text5, .text6 {
     color: #000;
     font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    margin: 10%;
+    margin: 0%;
     text-align: left;
-    margin-right: 100px;
+    margin-right: 0px;
 }
 
 .text1 h1, .text2 h1, .text3 h1, .text4 h1, .text5 h1, .text6 h1 {
@@ -170,14 +170,14 @@ font-size: 22px;
     .text1 h1, .text2 h1, .text3 h1, .text4 h1, .text5 h1, .text6 h1 {
         font-size: 20px;
         text-align: center;
-        margin-left: -5%;
-        width: 125%;
+        margin-left: 0%;
+        width: 100%;
     }
 .text1 p, .text2 p, .text3 p, .text4 p, .text5 p, .text6 p {
         font-size: 14px;
         text-align: center;
-        margin-left: -5%;
-        width: 125%;
+        margin-left: 0%;
+        width: 100%;
     }
 
     .imageEducation img, .imageScience img, .imageDivulgation img {
@@ -186,7 +186,7 @@ font-size: 22px;
     }
 
     .footer{
-        margin: -2.3%;
+        margin: 0%;
        padding: 1.4%;
     }
 }
@@ -241,7 +241,7 @@ font-size: 22px;
         align-items: center;
         height: auto;
         z-index: 1;
-        padding: 0 50px; /* Ajusta el padding horizontal en píxeles */
+        padding: 0px; /* Ajusta el padding horizontal en píxeles */
     }
 
     .text1, .text2, .text3, .text4, .text5, .text6,
@@ -256,13 +256,12 @@ font-size: 22px;
         height: 370px; 
         margin: -14px; 
     margin-top: -11px;
-    margin-left: -62px;
     }
     .imageScience img {
         width: 100%; 
 height: 370px; 
         margin: -14px; 
     margin-top: -11px;
-    margin-left: -35px;
+    margin-left: 10px;
     }
 }
