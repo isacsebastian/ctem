@@ -8,10 +8,10 @@ html, body {
 /* Contenedor principal */
 .container {
     background-color: #3D002F;
-    width: 101.55%;
+    width: 100%;
     min-height: 1000px; /* Ajusta según la altura mínima  */
     padding: 0px;
-    margin: -1%;
+    margin: 0%;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -127,8 +127,8 @@ font-size: 22px;
 /* Ajustes para pantallas móviles (no se tocan) */
 @media (max-width: 900px) {
     .container {
-       margin: -2.3%;
-       padding: 1.4%;
+       margin: 0%;
+       padding: 0%;
     }
     
     .image1 {
