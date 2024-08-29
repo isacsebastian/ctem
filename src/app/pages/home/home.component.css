@@ -1,28 +1,16 @@
 body {
-  margin: 0;
+  margin: -10px;
   font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-}
+} 
 
 .main-container {
   background-color: #200119;
-  width: 102%;
-  margin: -8px;
+  width: auto;
+  margin: 0px;
   padding: 0 5px;
   font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
   z-index: 2;
-}
-
-.background2 img {
-  display: none;
-}
-.background img {
-  width: 80vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
+} 
 
 .carousel {
   position: relative;
@@ -30,7 +18,7 @@ body {
 }
 
 .hero-image img {
-  width: 100%;
+  width: 100vw;
   height: auto;
   position: relative;
   z-index: 5;
@@ -52,6 +40,21 @@ body {
   top: 20px;
   margin-left: 43%;
 }
+
+.title1{
+  width: auto;
+  height: 8vh;
+  background-color: #00000094;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 8%;
+  font-style: italic;
+}
+
 .title-container {
   width: auto;
   height: 8vh;
@@ -78,6 +81,7 @@ body {
 
 .section h3 {
   text-align: center;
+  padding-right: 10%;
   margin-bottom: 20px;
   color: white;
 }
@@ -90,31 +94,32 @@ body {
 
 .column {
   flex: 1;
-  padding: 10px;
+  padding-top: 3%;
   text-align: left;
 }
 
 .column img {
-  width: 35vw;
-  height: 25vw;
-  margin-left: 35px;
+  width: 45vw;
+  height: 35vw;
+  padding-left: 4%;
 }
 
 .column p {
   margin-top: 10px;
   color: white;
-  margin-left: 35px;
+  padding-left: 10%;
 }
 /* Estilo para las tarjetas principales */
 .main-ponetes {
   display: flex;
   justify-content: space-around;
+  justify-content: center;
   margin: 20px 0;
 }
 
 .main-card {
-  width: 26vw;
-  height: 30vw;
+  width: 40vw;
+  height: 35vw;
   border-radius: 20px;
   background: #47023793;
   position: relative;
@@ -123,7 +128,7 @@ body {
   transition: 0.5s ease-out;
   overflow: hidden;
   text-align: center;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .main-card img {
@@ -193,7 +198,7 @@ body {
   width: 100%;
   height: auto;
   border-radius: 15px;
-  margin-left: 1%;
+  padding-left: 1%;
 }
 
 .card-details {
@@ -242,10 +247,7 @@ body {
 
 /* Footer */
 .footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #000000;
-  color: #fff;
+  width: auto;
   margin-top: 120px;
 }
 
@@ -323,7 +325,7 @@ body {
   }
 
   .title-container {
-    width: 100vw;
+    width: 104vw;
     height: 8vh;
     background-color: #00000094;
     position: relative;
@@ -350,6 +352,7 @@ body {
   .section h3 {
     text-align: center;
     margin-bottom: 20px;
+    padding-left: 17%;
     color: white;
   }
 
