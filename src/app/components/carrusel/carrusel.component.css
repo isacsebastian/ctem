@@ -20,13 +20,13 @@
   
   .slide-content {
     flex: 1;
-    padding: 20px;
-    background-color: #fff;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo blanco semi-transparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  
+}
   .slide-image {
     flex: 1;
     background-size: cover;
