@@ -1,25 +1,35 @@
 <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-3 col-3">
-          <div class="logo">
-            <img class="imagenCtem" src="/src/app/assets/Background2.png" class="logo" alt="Logo">
-          </div>
-        </div>
-        <div class="col-md-9 col-sm-9 col-9 text-end">
-          <div class="menu-icon" (click)="openMenu()">
-            <i class="{{menu_icon}}"></i>
-          </div>
-          <div class="desktop_menu" [class.mobile_menu]="menuValue">
-            <ul>
-              <li (click)="closeMenu()"><a routerLink="/home">Congreso</a></li>
-              <li (click)="closeMenu()"><a routerLink="/information">Tematicas</a></li>
-              <li (click)="closeMenu()"><a routerLink="/themes">Ponentes</a></li>
-              <li (click)="closeMenu()"><a routerLink="/themes">Unete a Nosotros ! 😘</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+  <!-- <div class="logo">
+    <img src="assets/logoCtem.png" alt="Logo">
+  </div> -->
+  <div class="logo">
+    <a routerLink="home">
+      <img src="assets/logoCtem.png" alt="Logo">
+    </a>
+  </div>
+  <div class="menu-icon" (click)="openMenu()">
+    <i [class]="menu_icon"></i>
+  </div>
   
+  <nav class="desktop_menu" [ngClass]="{'mobile_menu': menuValue}">
+    <ul>
+      <li (click)="closeMenu()">
+        <div routerLink="home">Inicio</div>
+      </li>
+      <li (click)="closeMenu()">
+        <div routerLink="information">Información</div>
+      </li>
+      <li (click)="closeMenu()">
+        <div routerLink="themes">Temáticas</div>
+      </li>
+      <!-- <li (click)="closeMenu()">
+        <div routerLink="themes">Ponentes</div>
+      </li> -->
+      <li (click)="closeMenu()">
+        <div routerLink="register">
+          <button class="button">Inscribirse</button>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</header>
