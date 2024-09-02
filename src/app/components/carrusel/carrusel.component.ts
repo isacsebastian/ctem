@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 interface DetailItem {
   icon: string;
@@ -71,19 +72,31 @@ export class CarruselComponent implements OnInit {
     },
     {
       title: 'Ciencia',
-      description: 'Actúa como un lenguaje universal que permite modelar, analizar y mejorar sistemas complejos. Su aplicación permite el desarrollo de <br> tecnologías avanzadas y contribuye a la creación de soluciones innovadoras en software.',
+      description: 'Actúa como un lenguaje universal que permite modelar, analizar y mejorar sistemas complejos. Su aplicación permite el desarrollo de tecnologías avanzadas y contribuye a la creación de soluciones innovadoras en software.',
       imageUrl: 'assets/image4.png',
     },
     {
-      title: 'Divulgacion Matemática',
-      description: 'A través de la divulgación, se busca <br> explicar de manera clara y comprensible los conceptos matemáticos fundamentales para <br> crear algoritmos y mejorar la seguridad en los sistemas digitales.',
+      title: 'Divulgación Matemática',
+      description: 'A través de la divulgación, se busca explicar de manera clara y comprensible los conceptos matemáticos fundamentales para crear algoritmos y mejorar la seguridad en los sistemas digitales.',
       imageUrl: 'assets/image4.png'
     }
   ];
 
   currentSlide = 0;
 
-  ngOnInit(): void {}
+  constructor(private sanitizer: DomSanitizer) {}
+
+  ngOnInit(): void {
+    // Desplazamiento automático cada 4 segundos
+    setInterval(() => {
+      this.nextSlide();
+    }, 4000);
+  }
+
+  // // // Método para sanitizar los SVG
+  // // sanitizeSVG(svg: string): SafeHtml {
+  // //   return this.sanitizer.bypassSecurityTrustHtml(svg);
+  // // }
 
   nextSlide(): void {
     this.currentSlide = (this.currentSlide + 1) % this.slides.length;
